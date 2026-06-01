@@ -1,0 +1,155 @@
+id_produto,produto,regiao,lag_meses,r_ndvi_preco,p_valor,n_amostras,significativo
+acucares,IPCA - Acucares e derivados,Nordeste,0,0.0722,0.4331,120,False
+acucares,IPCA - Acucares e derivados,Nordeste,1,-0.0541,0.5593,119,False
+acucares,IPCA - Acucares e derivados,Nordeste,2,-0.1569,0.0897,118,False
+acucares,IPCA - Acucares e derivados,Nordeste,3,-0.3017,0.0009,117,True
+acucares,IPCA - Acucares e derivados,Nordeste,4,-0.3207,0.0004,116,True
+acucares,IPCA - Acucares e derivados,Nordeste,5,-0.2356,0.0113,115,True
+acucares,IPCA - Acucares e derivados,Nordeste,6,-0.1153,0.2218,114,False
+aves_ovos,IPCA - Aves e ovos,Nordeste,0,0.1505,0.1008,120,False
+aves_ovos,IPCA - Aves e ovos,Nordeste,1,-0.0469,0.6128,119,False
+aves_ovos,IPCA - Aves e ovos,Nordeste,2,-0.1332,0.1506,118,False
+aves_ovos,IPCA - Aves e ovos,Nordeste,3,-0.2782,0.0024,117,True
+aves_ovos,IPCA - Aves e ovos,Nordeste,4,-0.2515,0.0065,116,True
+aves_ovos,IPCA - Aves e ovos,Nordeste,5,-0.2345,0.0116,115,True
+aves_ovos,IPCA - Aves e ovos,Nordeste,6,-0.0365,0.7001,114,False
+carnes,IPCA - Carnes e peixes,Nordeste,0,0.1045,0.2561,120,False
+carnes,IPCA - Carnes e peixes,Nordeste,1,-0.0768,0.4064,119,False
+carnes,IPCA - Carnes e peixes,Nordeste,2,-0.1508,0.1031,118,False
+carnes,IPCA - Carnes e peixes,Nordeste,3,-0.3059,0.0008,117,True
+carnes,IPCA - Carnes e peixes,Nordeste,4,-0.1766,0.0578,116,False
+carnes,IPCA - Carnes e peixes,Nordeste,5,-0.2184,0.0191,115,True
+carnes,IPCA - Carnes e peixes,Nordeste,6,-0.1577,0.0939,114,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,0,0.0199,0.8293,120,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,1,0.0303,0.7437,119,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,2,-0.01,0.9145,118,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,3,-0.1639,0.0775,117,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,4,-0.1897,0.0414,116,True
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,5,-0.1362,0.1468,115,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Nordeste,6,0.0035,0.9705,114,False
+frutas,IPCA - Frutas,Nordeste,0,-0.0587,0.5241,120,False
+frutas,IPCA - Frutas,Nordeste,1,-0.097,0.2939,119,False
+frutas,IPCA - Frutas,Nordeste,2,-0.1556,0.0924,118,False
+frutas,IPCA - Frutas,Nordeste,3,-0.2547,0.0056,117,True
+frutas,IPCA - Frutas,Nordeste,4,-0.1769,0.0575,116,False
+frutas,IPCA - Frutas,Nordeste,5,-0.17,0.0694,115,False
+frutas,IPCA - Frutas,Nordeste,6,-0.014,0.8824,114,False
+horticultura,IPCA - Horticultura,Nordeste,0,-0.0082,0.9293,120,False
+horticultura,IPCA - Horticultura,Nordeste,1,-0.0568,0.5397,119,False
+horticultura,IPCA - Horticultura,Nordeste,2,-0.1696,0.0664,118,False
+horticultura,IPCA - Horticultura,Nordeste,3,-0.3339,0.0002,117,True
+horticultura,IPCA - Horticultura,Nordeste,4,-0.2372,0.0104,116,True
+horticultura,IPCA - Horticultura,Nordeste,5,-0.1447,0.1228,115,False
+horticultura,IPCA - Horticultura,Nordeste,6,0.0452,0.6327,114,False
+ipca_geral,IPCA - Geral,Nordeste,0,0.0213,0.8177,120,False
+ipca_geral,IPCA - Geral,Nordeste,1,-0.0698,0.4507,119,False
+ipca_geral,IPCA - Geral,Nordeste,2,-0.1172,0.2064,118,False
+ipca_geral,IPCA - Geral,Nordeste,3,-0.1777,0.0552,117,False
+ipca_geral,IPCA - Geral,Nordeste,4,-0.1945,0.0364,116,True
+ipca_geral,IPCA - Geral,Nordeste,5,-0.1268,0.1768,115,False
+ipca_geral,IPCA - Geral,Nordeste,6,0.0092,0.9227,114,False
+leite,IPCA - Leite e derivados,Nordeste,0,-0.2387,0.009,119,True
+leite,IPCA - Leite e derivados,Nordeste,1,-0.1948,0.0345,118,True
+leite,IPCA - Leite e derivados,Nordeste,2,-0.2788,0.0023,117,True
+leite,IPCA - Leite e derivados,Nordeste,3,-0.2707,0.0033,116,True
+leite,IPCA - Leite e derivados,Nordeste,4,-0.1072,0.2543,115,False
+leite,IPCA - Leite e derivados,Nordeste,5,-0.0161,0.8652,114,False
+leite,IPCA - Leite e derivados,Nordeste,6,0.1237,0.1916,113,False
+oleos,IPCA - Oleos e gorduras,Nordeste,0,0.0882,0.338,120,False
+oleos,IPCA - Oleos e gorduras,Nordeste,1,-0.0338,0.7152,119,False
+oleos,IPCA - Oleos e gorduras,Nordeste,2,-0.149,0.1073,118,False
+oleos,IPCA - Oleos e gorduras,Nordeste,3,-0.3118,0.0006,117,True
+oleos,IPCA - Oleos e gorduras,Nordeste,4,-0.2648,0.0041,116,True
+oleos,IPCA - Oleos e gorduras,Nordeste,5,-0.2499,0.0071,115,True
+oleos,IPCA - Oleos e gorduras,Nordeste,6,-0.144,0.1263,114,False
+panificados,IPCA - Panificados,Nordeste,0,-0.2203,0.0161,119,True
+panificados,IPCA - Panificados,Nordeste,1,-0.1762,0.0563,118,False
+panificados,IPCA - Panificados,Nordeste,2,-0.2615,0.0044,117,True
+panificados,IPCA - Panificados,Nordeste,3,-0.3091,0.0007,116,True
+panificados,IPCA - Panificados,Nordeste,4,-0.1236,0.1883,115,False
+panificados,IPCA - Panificados,Nordeste,5,0.0651,0.4911,114,False
+panificados,IPCA - Panificados,Nordeste,6,0.1455,0.1241,113,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,0,-0.0819,0.3736,120,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,1,-0.0345,0.7098,119,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,2,-0.0688,0.459,118,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,3,-0.2123,0.0216,117,True
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,4,-0.005,0.9574,116,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,5,0.0019,0.984,115,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Nordeste,6,0.1479,0.1164,114,False
+acucares,IPCA - Acucares e derivados,Sul,0,0.2448,0.0071,120,True
+acucares,IPCA - Acucares e derivados,Sul,1,0.0679,0.4631,119,False
+acucares,IPCA - Acucares e derivados,Sul,2,0.0257,0.782,118,False
+acucares,IPCA - Acucares e derivados,Sul,3,-0.0342,0.714,117,False
+acucares,IPCA - Acucares e derivados,Sul,4,-0.2572,0.0053,116,True
+acucares,IPCA - Acucares e derivados,Sul,5,-0.2912,0.0016,115,True
+acucares,IPCA - Acucares e derivados,Sul,6,-0.3055,0.001,114,True
+aves_ovos,IPCA - Aves e ovos,Sul,0,0.0842,0.3606,120,False
+aves_ovos,IPCA - Aves e ovos,Sul,1,0.0682,0.4612,119,False
+aves_ovos,IPCA - Aves e ovos,Sul,2,0.014,0.88,118,False
+aves_ovos,IPCA - Aves e ovos,Sul,3,-0.1011,0.2779,117,False
+aves_ovos,IPCA - Aves e ovos,Sul,4,-0.1646,0.0775,116,False
+aves_ovos,IPCA - Aves e ovos,Sul,5,-0.1585,0.0908,115,False
+aves_ovos,IPCA - Aves e ovos,Sul,6,-0.2031,0.0303,114,True
+carnes,IPCA - Carnes e peixes,Sul,0,0.1889,0.0388,120,True
+carnes,IPCA - Carnes e peixes,Sul,1,0.125,0.1756,119,False
+carnes,IPCA - Carnes e peixes,Sul,2,0.0513,0.5809,118,False
+carnes,IPCA - Carnes e peixes,Sul,3,-0.0572,0.5402,117,False
+carnes,IPCA - Carnes e peixes,Sul,4,-0.1582,0.09,116,False
+carnes,IPCA - Carnes e peixes,Sul,5,-0.1932,0.0386,115,True
+carnes,IPCA - Carnes e peixes,Sul,6,-0.1517,0.1072,114,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,0,0.0837,0.3636,120,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,1,0.0346,0.7089,119,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,2,0.0393,0.6728,118,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,3,-0.006,0.9485,117,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,4,-0.0763,0.4158,116,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,5,-0.067,0.4766,115,False
+cereais,"IPCA - Cereais, leguminosas e oleag",Sul,6,-0.1053,0.2647,114,False
+frutas,IPCA - Frutas,Sul,0,0.1222,0.1837,120,False
+frutas,IPCA - Frutas,Sul,1,-0.0167,0.8571,119,False
+frutas,IPCA - Frutas,Sul,2,-0.0449,0.6292,118,False
+frutas,IPCA - Frutas,Sul,3,-0.136,0.1438,117,False
+frutas,IPCA - Frutas,Sul,4,-0.1969,0.0341,116,True
+frutas,IPCA - Frutas,Sul,5,-0.1901,0.0419,115,True
+frutas,IPCA - Frutas,Sul,6,0.0214,0.8211,114,False
+horticultura,IPCA - Horticultura,Sul,0,0.1505,0.1007,120,False
+horticultura,IPCA - Horticultura,Sul,1,0.0637,0.4914,119,False
+horticultura,IPCA - Horticultura,Sul,2,0.0241,0.7955,118,False
+horticultura,IPCA - Horticultura,Sul,3,-0.053,0.5705,117,False
+horticultura,IPCA - Horticultura,Sul,4,-0.1254,0.1797,116,False
+horticultura,IPCA - Horticultura,Sul,5,-0.1935,0.0383,115,True
+horticultura,IPCA - Horticultura,Sul,6,-0.2003,0.0326,114,True
+ipca_geral,IPCA - Geral,Sul,0,0.0722,0.4335,120,False
+ipca_geral,IPCA - Geral,Sul,1,-0.0193,0.8346,119,False
+ipca_geral,IPCA - Geral,Sul,2,-0.1202,0.195,118,False
+ipca_geral,IPCA - Geral,Sul,3,-0.1851,0.0457,117,True
+ipca_geral,IPCA - Geral,Sul,4,-0.2656,0.004,116,True
+ipca_geral,IPCA - Geral,Sul,5,-0.2037,0.029,115,True
+ipca_geral,IPCA - Geral,Sul,6,-0.1893,0.0437,114,True
+leite,IPCA - Leite e derivados,Sul,0,0.0245,0.7911,119,False
+leite,IPCA - Leite e derivados,Sul,1,-0.0812,0.382,118,False
+leite,IPCA - Leite e derivados,Sul,2,-0.0883,0.3437,117,False
+leite,IPCA - Leite e derivados,Sul,3,-0.1418,0.129,116,False
+leite,IPCA - Leite e derivados,Sul,4,-0.2125,0.0226,115,True
+leite,IPCA - Leite e derivados,Sul,5,-0.1929,0.0398,114,True
+leite,IPCA - Leite e derivados,Sul,6,-0.0175,0.8538,113,False
+oleos,IPCA - Oleos e gorduras,Sul,0,0.2086,0.0222,120,True
+oleos,IPCA - Oleos e gorduras,Sul,1,0.1148,0.2138,119,False
+oleos,IPCA - Oleos e gorduras,Sul,2,0.1167,0.2082,118,False
+oleos,IPCA - Oleos e gorduras,Sul,3,-0.0498,0.594,117,False
+oleos,IPCA - Oleos e gorduras,Sul,4,-0.2672,0.0037,116,True
+oleos,IPCA - Oleos e gorduras,Sul,5,-0.324,0.0004,115,True
+oleos,IPCA - Oleos e gorduras,Sul,6,-0.316,0.0006,114,True
+panificados,IPCA - Panificados,Sul,0,0.0595,0.5204,119,False
+panificados,IPCA - Panificados,Sul,1,-0.1225,0.1863,118,False
+panificados,IPCA - Panificados,Sul,2,-0.1297,0.1633,117,False
+panificados,IPCA - Panificados,Sul,3,-0.2206,0.0174,116,True
+panificados,IPCA - Panificados,Sul,4,-0.2021,0.0303,115,True
+panificados,IPCA - Panificados,Sul,5,-0.2052,0.0285,114,True
+panificados,IPCA - Panificados,Sul,6,-0.0633,0.5051,113,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,0,-0.0231,0.8025,120,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,1,-0.0895,0.3332,119,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,2,-0.0017,0.9856,118,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,3,-0.1372,0.1403,117,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,4,-0.0623,0.5062,116,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,5,-0.064,0.4966,115,False
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Sul,6,0.0092,0.9222,114,False

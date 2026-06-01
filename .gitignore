@@ -1,0 +1,31 @@
+# Credenciais — NUNCA commitar
+.env
+
+# Dados diários (grande demais para o git)
+data/raw/openmeteo_diario_sul.csv
+
+# Credenciais e configs locais BCB
+data/raw/bcb_codigos_regionais.json
+
+# Gráficos gerados
+plots/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+id_produto,nome_produto,grupo,subgrupo
+acucares,IPCA - Acucares e derivados,Alimentos,Acucares
+aves_ovos,IPCA - Aves e ovos,Alimentos,Aves e Ovos
+carnes,IPCA - Carnes e peixes,Alimentos,Carnes
+cereais,"IPCA - Cereais, leguminosas e oleag",Alimentos,Cereais
+frutas,IPCA - Frutas,Alimentos,Frutas
+horticultura,IPCA - Horticultura,Alimentos,Hortifruti
+ipca_geral,IPCA - Geral,Indice Geral,Geral
+leite,IPCA - Leite e derivados,Alimentos,Laticinios
+oleos,IPCA - Oleos e gorduras,Alimentos,Oleos e Gorduras
+panificados,IPCA - Panificados,Alimentos,Panificados
+tuberculos,"IPCA - Tuberculos, raizes e legumes",Alimentos,Tuberculos

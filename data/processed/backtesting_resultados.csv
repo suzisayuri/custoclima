@@ -1,0 +1,2106 @@
+periodo_previsao,periodo_alvo,lag_meses,oni,fase_enso,regiao,produto,previsao,real,variacao_real_pct,acerto
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.467,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.024,True
+201410,201501,3,0.54,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.024,False
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,7.79,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,6.326,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,7.476,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.067,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.24,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,6.806,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.293,True
+201410,201501,3,0.54,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,7.262,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.467,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.687,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.024,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.323,True
+201411,201502,3,0.71,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.323,False
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,7.79,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ESTAVEL,-0.064,False
+201411,201502,3,0.71,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,1.733,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,7.476,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.59,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.067,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.121,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.24,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.22,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,6.806,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.229,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.293,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.356,True
+201411,201501,2,0.71,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,7.262,True
+201411,201502,3,0.71,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.594,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.687,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.772,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.323,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.629,True
+201412,201503,3,0.77,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.629,False
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ESTAVEL,-0.064,False
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.227,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,2.356,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.59,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.663,False
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.121,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,4.229,True
+201412,201501,1,0.77,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.24,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.22,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.32,True
+201412,201501,1,0.77,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,6.806,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.229,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.439,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.356,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ESTAVEL,-0.152,False
+201412,201501,1,0.77,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,7.262,True
+201412,201502,2,0.77,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.594,True
+201412,201503,3,0.77,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.06,False
+201501,201501,0,0.69,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,2.467,False
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.772,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.977,True
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.629,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.872,True
+201501,201504,3,0.69,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,0.872,False
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.227,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.075,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,2.774,True
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.663,False
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,1.302,True
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,4.229,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.812,True
+201501,201502,1,0.69,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.22,True
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.32,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.71,True
+201501,201501,0,0.69,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,1.24,False
+201501,201502,1,0.69,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.229,True
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.439,True
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.498,True
+201501,201501,0,0.69,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,3.293,False
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ESTAVEL,-0.152,False
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.983,True
+201501,201502,1,0.69,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.594,True
+201501,201503,2,0.69,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.06,False
+201501,201504,3,0.69,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.725,True
+201502,201502,0,0.61,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,2.687,False
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.977,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.3,True
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.872,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.991,True
+201502,201505,3,0.61,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,4.991,False
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.075,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-1.58,False
+201502,201505,3,0.61,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,1.505,True
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,1.302,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,5.902,True
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.812,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,8.887,True
+201502,201503,1,0.61,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.32,True
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.71,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.74,True
+201502,201502,0,0.61,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,1.22,False
+201502,201503,1,0.61,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.439,True
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.498,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.17,True
+201502,201502,0,0.61,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,4.356,False
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.983,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.884,True
+201502,201503,1,0.61,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.06,False
+201502,201504,2,0.61,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.725,True
+201502,201505,3,0.61,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,3.416,True
+201503,201503,0,0.65,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,0.772,False
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.3,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.87,True
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.991,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,5.11,True
+201503,201506,3,0.65,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,5.11,False
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-1.58,False
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.628,False
+201503,201506,3,0.65,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-1.401,False
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,5.902,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-5.008,False
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,8.887,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-5.489,False
+201503,201504,1,0.65,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.71,True
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.74,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.79,True
+201503,201503,0,0.65,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,1.32,False
+201503,201504,1,0.65,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.498,True
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.17,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-4.821,False
+201503,201503,0,0.65,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ESTAVEL,-0.152,False
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.884,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-3.089,False
+201503,201504,1,0.65,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.725,True
+201503,201505,2,0.65,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,3.416,True
+201503,201506,3,0.65,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.869,False
+201504,201504,0,0.81,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,3.977,False
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.87,True
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-0.953,False
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,5.11,True
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-4.764,False
+201504,201507,3,0.81,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-4.764,False
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.628,False
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.638,True
+201504,201507,3,0.81,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ESTAVEL,0.164,False
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-5.008,False
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.661,False
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-5.489,False
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,2.28,True
+201504,201505,1,0.81,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.74,True
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.79,True
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.62,True
+201504,201504,0,0.81,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.71,False
+201504,201505,1,0.81,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.17,True
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-4.821,False
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.848,True
+201504,201504,0,0.81,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,3.983,False
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-3.089,False
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-3.032,False
+201504,201505,1,0.81,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,3.416,True
+201504,201506,2,0.81,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.869,False
+201504,201507,3,0.81,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.299,False
+201505,201505,0,1.02,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,1.3,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-0.953,False
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ESTAVEL,0.281,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-4.764,False
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.421,False
+201505,201508,3,1.02,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.421,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.638,True
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.848,False
+201505,201508,3,1.02,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-1.482,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.661,False
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.07,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,2.28,True
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-4.597,False
+201505,201506,1,1.02,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.79,True
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.62,True
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.22,False
+201505,201505,0,1.02,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.74,False
+201505,201506,1,1.02,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-4.821,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.848,True
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.203,False
+201505,201505,0,1.02,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,3.884,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-3.032,False
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.459,False
+201505,201506,1,1.02,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.869,False
+201505,201507,2,1.02,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.299,False
+201505,201508,3,1.02,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.46,False
+201506,201506,0,1.25,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,1.87,False
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ESTAVEL,0.281,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.518,False
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.421,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-4.56,False
+201506,201509,3,1.25,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-4.56,False
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.848,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.975,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,0.442,True
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.07,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.959,False
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-4.597,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.88,False
+201506,201507,1,1.25,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.62,True
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.22,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.54,True
+201506,201506,0,1.25,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.79,False
+201506,201507,1,1.25,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.848,True
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.203,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.228,False
+201506,201506,0,1.25,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-3.089,True
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.459,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-1.271,False
+201506,201507,1,1.25,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.299,False
+201506,201508,2,1.25,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.46,False
+201506,201509,3,1.25,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.278,False
+201507,201507,0,1.57,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-0.953,True
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.518,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-0.494,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-4.56,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.789,True
+201507,201510,3,1.57,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,0.789,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.975,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.931,True
+201507,201510,3,1.57,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-1.846,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.959,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ESTAVEL,-0.151,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.88,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,0.338,True
+201507,201508,1,1.57,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.22,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.54,True
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.82,True
+201507,201507,0,1.57,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.62,False
+201507,201508,1,1.57,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.203,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.228,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.124,False
+201507,201507,0,1.57,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-3.032,True
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-1.271,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.973,True
+201507,201508,1,1.57,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.46,False
+201507,201509,2,1.57,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.278,False
+201507,201510,3,1.57,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,2.099,True
+201508,201508,0,1.91,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ESTAVEL,0.281,False
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-0.494,False
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.018,True
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.789,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.234,True
+201508,201511,3,1.91,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.234,False
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.931,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.157,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,7.239,True
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ESTAVEL,-0.151,False
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,3.579,True
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,0.338,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.798,True
+201508,201509,1,1.91,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.54,True
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.82,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,1.01,True
+201508,201508,0,1.91,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.22,True
+201508,201509,1,1.91,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.228,False
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.124,False
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,6.964,True
+201508,201508,0,1.91,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-2.459,True
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.973,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,5.84,True
+201508,201509,1,1.91,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.278,False
+201508,201510,2,1.91,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,2.099,True
+201508,201511,3,1.91,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,9.225,True
+201509,201509,0,2.21,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-2.518,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.018,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.151,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.234,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,7.888,True
+201509,201512,3,2.21,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,7.888,False
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.157,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,1.72,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,3.339,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,3.579,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,4.356,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.798,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,5.578,True
+201509,201510,1,2.21,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.82,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,1.01,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.96,True
+201509,201509,0,2.21,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.54,False
+201509,201510,1,2.21,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.124,False
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,6.964,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.064,True
+201509,201509,0,2.21,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-1.271,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,5.84,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.575,True
+201509,201510,1,2.21,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,2.099,True
+201509,201511,2,2.21,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,9.225,True
+201509,201512,3,2.21,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,4.159,True
+201510,201510,0,2.47,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-0.494,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.151,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,10.394,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,7.888,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,6.58,True
+201510,201601,3,2.47,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,6.58,False
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,1.72,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,18.163,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,2.752,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,4.356,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,15.655,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,5.578,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,9.848,True
+201510,201511,1,2.47,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,1.01,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.96,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,1.27,True
+201510,201510,0,2.47,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.82,False
+201510,201511,1,2.47,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,6.964,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.064,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,10.828,True
+201510,201510,0,2.47,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,0.973,False
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.575,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,6.221,True
+201510,201511,1,2.47,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,9.225,True
+201510,201512,2,2.47,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,4.159,True
+201510,201601,3,2.47,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,14.972,True
+201511,201511,0,2.64,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,4.018,False
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,10.394,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.119,True
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,6.58,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,8.641,True
+201511,201602,3,2.64,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,8.641,False
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,18.163,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.239,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-1.433,False
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,15.655,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-4.286,False
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,9.848,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,5.151,True
+201511,201512,1,2.64,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.96,True
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,1.27,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.9,True
+201511,201511,0,2.64,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,1.01,False
+201511,201512,1,2.64,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.064,True
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,10.828,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-4.173,False
+201511,201511,0,2.64,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,5.84,False
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,6.221,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.787,True
+201511,201512,1,2.64,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,4.159,True
+201511,201601,2,2.64,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,14.972,True
+201511,201602,3,2.64,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.893,False
+201512,201512,0,2.75,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,2.151,False
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.119,True
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.434,False
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,8.641,True
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.723,True
+201512,201603,3,2.75,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.723,False
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.239,True
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.527,False
+201512,201603,3,2.75,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,2.045,True
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-4.286,False
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,1.789,True
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,5.151,True
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.343,False
+201512,201601,1,2.75,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,1.27,True
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.9,True
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.43,True
+201512,201512,0,2.75,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.96,False
+201512,201601,1,2.75,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,10.828,True
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-4.173,False
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.136,True
+201512,201512,0,2.75,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,2.575,False
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.787,True
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-1.751,False
+201512,201601,1,2.75,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,14.972,True
+201512,201602,2,2.75,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.893,False
+201512,201603,3,2.75,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,1.379,True
+201601,201601,0,2.63,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,10.394,False
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.434,False
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.964,True
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.723,True
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-0.329,False
+201601,201604,3,2.63,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-0.329,False
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.527,False
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.309,False
+201601,201604,3,2.63,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-1.108,False
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,1.789,True
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,0.98,True
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.343,False
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.3,False
+201601,201602,1,2.63,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.9,True
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.43,True
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.61,True
+201601,201601,0,2.63,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,1.27,False
+201601,201602,1,2.63,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-4.173,False
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.136,True
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.348,False
+201601,201601,0,2.63,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,6.221,False
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-1.751,False
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.611,True
+201601,201602,1,2.63,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.893,False
+201601,201603,2,2.63,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,1.379,True
+201601,201604,3,2.63,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.836,False
+201602,201602,0,2.28,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,3.119,False
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.964,True
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.214,False
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-0.329,False
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-2.313,False
+201602,201605,3,2.28,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.313,False
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.309,False
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.851,False
+201602,201605,3,2.28,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,3.459,True
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,0.98,True
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,0.806,True
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.3,False
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-2.599,False
+201602,201603,1,2.28,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.43,True
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.61,True
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.78,True
+201602,201602,0,2.28,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.9,False
+201602,201603,1,2.28,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.136,True
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.348,False
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.319,True
+201602,201602,0,2.28,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,0.787,False
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.611,True
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.897,True
+201602,201603,1,2.28,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,1.379,True
+201602,201604,2,2.28,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.836,False
+201602,201605,3,2.28,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,3.255,True
+201603,201603,0,1.71,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-2.434,True
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.214,False
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.292,True
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-2.313,False
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.047,True
+201603,201606,3,1.71,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,4.047,False
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.851,False
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,12.514,True
+201603,201606,3,1.71,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,1.571,True
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,0.806,True
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,9.402,True
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-2.599,False
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.106,True
+201603,201604,1,1.71,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.61,True
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.78,True
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.35,True
+201603,201603,0,1.71,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.43,False
+201603,201604,1,1.71,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.348,False
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.319,True
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.24,True
+201603,201603,0,1.71,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-1.751,True
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.897,True
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.335,True
+201603,201604,1,1.71,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.836,False
+201603,201605,2,1.71,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,3.255,True
+201603,201606,3,1.71,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,1.54,True
+201604,201604,0,1.05,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,3.964,False
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.292,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.786,True
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.047,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-0.603,False
+201604,201607,3,1.05,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-0.603,False
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,12.514,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.679,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,0.9,True
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,9.402,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.714,True
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.106,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,4.292,True
+201604,201605,1,1.05,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.78,True
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.35,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.52,True
+201604,201604,0,1.05,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.61,False
+201604,201605,1,1.05,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.319,True
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.24,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.639,False
+201604,201604,0,1.05,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,2.611,False
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.335,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.985,True
+201604,201605,1,1.05,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,3.255,True
+201604,201606,2,1.05,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.54,True
+201604,201607,3,1.05,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.232,False
+201608,201608,0,-0.5,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.364,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.367,False
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.852,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.141,True
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.158,False
+201608,201611,3,-0.5,la_nina_fraca,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.158,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.85,False
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-2.552,False
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-2.679,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.004,False
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.483,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ESTAVEL,-0.127,True
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.14,False
+201608,201609,1,-0.5,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.08,True
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.26,True
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.18,True
+201608,201608,0,-0.5,la_nina_fraca,Sul,IPCA - Geral,ESTAVEL,ALTA,0.44,False
+201608,201609,1,-0.5,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.883,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.731,False
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-4.199,False
+201608,201608,0,-0.5,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.78,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,-0.174,True
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.355,False
+201608,201609,1,-0.5,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,2.371,False
+201608,201610,2,-0.5,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-5.442,False
+201608,201611,3,-0.5,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,-0.039,True
+201609,201609,0,-0.58,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ESTAVEL,0.282,True
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.852,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.211,False
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.158,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.238,False
+201609,201612,3,-0.58,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-1.238,False
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-2.552,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-5.112,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-2.734,False
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.483,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.186,True
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.14,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-3.033,False
+201609,201610,1,-0.58,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.26,True
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.18,True
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.3,True
+201609,201609,0,-0.58,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.08,False
+201609,201610,1,-0.58,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.731,False
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-4.199,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.556,False
+201609,201609,0,-0.58,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.569,False
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.355,False
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.742,False
+201609,201610,1,-0.58,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-5.442,False
+201609,201611,2,-0.58,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,-0.039,True
+201609,201612,3,-0.58,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.138,False
+201610,201610,0,-0.64,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.367,False
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.211,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.762,False
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.238,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.049,False
+201610,201701,3,-0.64,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-1.049,False
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-5.112,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.242,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-2.969,False
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.186,True
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.259,True
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-3.033,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.64,False
+201610,201611,1,-0.64,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.18,True
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.3,True
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.38,False
+201610,201610,0,-0.64,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.26,False
+201610,201611,1,-0.64,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-4.199,False
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.556,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.259,False
+201610,201610,0,-0.64,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,-0.174,True
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.742,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.668,False
+201610,201611,1,-0.64,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,-0.039,True
+201610,201612,2,-0.64,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.138,False
+201610,201701,3,-0.64,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.218,True
+201611,201611,0,-0.6,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.852,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.762,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.138,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.049,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.665,False
+201611,201702,3,-0.6,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-2.665,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.242,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-3.58,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-2.62,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.259,True
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.467,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.64,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.562,False
+201611,201612,1,-0.6,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.3,True
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.38,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.33,False
+201611,201611,0,-0.6,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.18,False
+201611,201612,1,-0.6,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.556,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.259,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.087,False
+201611,201611,0,-0.6,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.355,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.668,False
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.592,False
+201611,201612,1,-0.6,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.138,False
+201611,201701,2,-0.6,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.218,True
+201611,201702,3,-0.6,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-3.712,False
+201710,201710,0,-0.6,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.338,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.422,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,11.908,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-0.577,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.893,False
+201710,201801,3,-0.6,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,2.893,True
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.314,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.926,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,6.609,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.348,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.424,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,0.97,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,5.487,False
+201710,201711,1,-0.6,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.28,True
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.44,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.29,True
+201710,201710,0,-0.6,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.42,True
+201710,201711,1,-0.6,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-1.689,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.528,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,5.091,False
+201710,201710,0,-0.6,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.367,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.905,False
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,8.847,False
+201710,201711,1,-0.6,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-2.125,False
+201710,201712,2,-0.6,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,-0.197,True
+201710,201801,3,-0.6,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,9.672,False
+201711,201711,0,-0.77,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.659,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,11.908,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.962,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.893,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,3.371,False
+201711,201802,3,-0.77,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,3.371,True
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.926,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-2.394,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.704,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.424,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.491,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,5.487,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,2.028,False
+201711,201712,1,-0.77,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.44,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.29,True
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.32,False
+201711,201711,0,-0.77,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.28,False
+201711,201712,1,-0.77,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.528,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,5.091,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.495,False
+201711,201711,0,-0.77,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.96,False
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,8.847,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.196,False
+201711,201712,1,-0.77,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,-0.197,True
+201711,201801,2,-0.77,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,9.672,False
+201711,201802,3,-0.77,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.878,False
+201712,201712,0,-0.86,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.422,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.962,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.22,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,3.371,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-3.242,False
+201712,201803,3,-0.86,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-3.242,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-2.394,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.533,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,2.224,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.491,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.984,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,2.028,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.636,False
+201712,201801,1,-0.86,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.29,True
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.32,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.09,True
+201712,201712,0,-0.86,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.44,True
+201712,201801,1,-0.86,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,5.091,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.495,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.987,False
+201712,201712,0,-0.86,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.905,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.196,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.633,False
+201712,201801,1,-0.86,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,9.672,False
+201712,201802,2,-0.86,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.878,False
+201712,201803,3,-0.86,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.998,False
+201801,201801,0,-0.77,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,11.908,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.22,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-4.019,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-3.242,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,-0.237,True
+201801,201804,3,-0.77,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ESTAVEL,-0.237,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.533,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,0.771,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.887,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.984,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.493,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.636,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.576,False
+201801,201802,1,-0.77,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.32,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.09,True
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.22,True
+201801,201801,0,-0.77,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.29,False
+201801,201802,1,-0.77,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.495,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.987,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.41,False
+201801,201801,0,-0.77,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,8.847,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.633,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.629,False
+201801,201802,1,-0.77,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.878,False
+201801,201803,2,-0.77,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.998,False
+201801,201804,3,-0.77,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.566,False
+201802,201802,0,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.962,False
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-4.019,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.172,False
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,-0.237,True
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.374,False
+201802,201805,3,-0.71,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,0.374,True
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,0.771,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.015,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,0.787,False
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.493,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,0.23,True
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.576,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.116,False
+201802,201803,1,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.09,True
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.22,True
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.4,False
+201802,201802,0,-0.71,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.32,True
+201802,201803,1,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.987,False
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.41,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.39,False
+201802,201802,0,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.196,False
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.629,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.04,False
+201802,201803,1,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.998,False
+201802,201804,2,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.566,False
+201802,201805,3,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,0.582,False
+201803,201803,0,-0.57,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.22,False
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.172,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.976,False
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.374,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,3.833,False
+201803,201806,3,-0.57,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,3.833,True
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.015,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,0.074,True
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,3.845,False
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,0.23,True
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.229,True
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.116,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,0.399,False
+201803,201804,1,-0.57,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.22,True
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.4,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.26,False
+201803,201803,0,-0.57,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.09,False
+201803,201804,1,-0.57,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.41,False
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.39,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.317,False
+201803,201803,0,-0.57,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.633,False
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.04,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.91,False
+201803,201804,1,-0.57,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.566,False
+201803,201805,2,-0.57,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,0.582,False
+201803,201806,3,-0.57,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,2.068,False
+201809,201809,0,0.53,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-1.938,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.583,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.715,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,2.914,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,2.705,True
+201809,201812,3,0.53,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,2.705,False
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.12,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.57,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,0.634,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.89,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,5.651,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,4.642,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.479,False
+201809,201810,1,0.53,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.45,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,-0.21,False
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.15,False
+201809,201809,0,0.53,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.48,False
+201809,201810,1,0.53,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,3.885,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,7.814,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.694,True
+201809,201809,0,0.53,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-1.582,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.7,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.766,True
+201809,201810,1,0.53,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,4.724,True
+201809,201811,2,0.53,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,5.446,True
+201809,201812,3,0.53,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.163,True
+201810,201810,0,0.81,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,1.553,False
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,1.715,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.551,True
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,2.705,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.646,True
+201810,201901,3,0.81,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,0.646,False
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.57,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.611,False
+201810,201901,3,0.81,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-4.157,False
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,5.651,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.41,True
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.479,False
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.674,True
+201810,201811,1,0.81,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,-0.21,False
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.15,False
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.32,True
+201810,201810,0,0.81,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.45,False
+201810,201811,1,0.81,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,7.814,True
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.694,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.81,False
+201810,201810,0,0.81,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ESTAVEL,-0.121,False
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.766,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.055,True
+201810,201811,1,0.81,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,5.446,True
+201810,201812,2,0.81,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.163,True
+201810,201901,3,0.81,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.003,False
+201811,201811,0,0.97,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,1.583,False
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.551,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.804,True
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.646,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ESTAVEL,-0.265,False
+201811,201902,3,0.97,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,-0.265,True
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.611,False
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,6.465,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,3.087,True
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.41,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,4.563,True
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.674,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.186,True
+201811,201812,1,0.97,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.15,False
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.32,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.43,True
+201811,201811,0,0.97,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,-0.21,True
+201811,201812,1,0.97,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.694,True
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.81,False
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.835,True
+201811,201811,0,0.97,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,0.7,False
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.055,True
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,6.75,True
+201811,201812,1,0.97,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.163,True
+201811,201901,2,0.97,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.003,False
+201811,201902,3,0.97,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.103,False
+201812,201812,0,0.92,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,1.715,False
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.804,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.848,True
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ESTAVEL,-0.265,False
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,6.491,True
+201812,201903,3,0.92,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,6.491,False
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,6.465,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,1.583,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,7.205,True
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,4.563,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,4.09,True
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.186,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,6.779,True
+201812,201901,1,0.92,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.32,True
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.43,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.75,True
+201812,201812,0,0.92,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.15,True
+201812,201901,1,0.92,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.81,False
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.835,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.296,True
+201812,201812,0,0.92,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,2.766,False
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,6.75,True
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,6.238,True
+201812,201901,1,0.92,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.003,False
+201812,201902,2,0.92,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.103,False
+201812,201903,3,0.92,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,11.087,True
+201901,201901,0,0.89,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,4.551,False
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.848,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.97,True
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,6.491,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,3.548,True
+201901,201904,3,0.89,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,3.548,False
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,1.583,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,4.943,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,4.067,True
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,4.09,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.734,True
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,6.779,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.163,True
+201901,201902,1,0.89,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.43,True
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.75,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.57,True
+201901,201901,0,0.89,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.32,False
+201901,201902,1,0.89,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.835,True
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.296,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,3.079,True
+201901,201901,0,0.89,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,3.055,False
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,6.238,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.779,True
+201901,201902,1,0.89,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.103,False
+201901,201903,2,0.89,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,11.087,True
+201901,201904,3,0.89,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,2.543,True
+201902,201902,0,0.86,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,4.804,False
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.97,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.11,False
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,3.548,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.21,False
+201902,201905,3,0.86,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.21,False
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,4.943,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.86,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-2.28,False
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.734,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-4.476,False
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,3.163,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.214,False
+201902,201903,1,0.86,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.75,True
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.57,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.13,False
+201902,201902,0,0.86,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.43,False
+201902,201903,1,0.86,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,4.296,True
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,3.079,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-7.017,False
+201902,201902,0,0.86,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,6.75,False
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,2.779,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-0.983,False
+201902,201903,1,0.86,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,11.087,True
+201902,201904,2,0.86,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,2.543,True
+201902,201905,3,0.86,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.058,False
+201903,201903,0,0.84,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,5.848,False
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.11,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.202,False
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.21,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-2.483,False
+201903,201906,3,0.84,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.483,False
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.86,True
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.142,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-1.072,False
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-4.476,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.87,False
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.214,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,0.965,True
+201903,201904,1,0.84,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.57,True
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.13,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.01,False
+201903,201903,0,0.84,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.75,False
+201903,201904,1,0.84,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,3.079,True
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-7.017,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.047,True
+201903,201903,0,0.84,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,6.238,False
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-0.983,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.175,False
+201903,201904,1,0.84,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,2.543,True
+201903,201905,2,0.84,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.058,False
+201903,201906,3,0.84,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-6.649,False
+201904,201904,0,0.77,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,2.97,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.202,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-3.296,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-2.483,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.06,False
+201904,201907,3,0.77,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.06,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.142,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.04,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.64,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.87,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ESTAVEL,-0.261,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,0.965,True
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.514,False
+201904,201905,1,0.77,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.13,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.01,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.19,False
+201904,201904,0,0.77,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.57,False
+201904,201905,1,0.77,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-7.017,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.047,True
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-3.324,False
+201904,201904,0,0.77,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,2.779,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.175,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-4.02,False
+201904,201905,1,0.77,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.058,False
+201904,201906,2,0.77,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-6.649,False
+201904,201907,3,0.77,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.238,False
+201905,201905,0,0.64,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-2.11,True
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-3.296,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-4.596,False
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.06,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-2.333,False
+201905,201908,3,0.64,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-2.333,False
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.04,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.109,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.541,False
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ESTAVEL,-0.261,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-5.029,False
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-3.514,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-6.957,False
+201905,201906,1,0.64,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.01,False
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.19,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.11,False
+201905,201905,0,0.64,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.13,True
+201905,201906,1,0.64,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.047,True
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-3.324,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-3.347,False
+201905,201905,0,0.64,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-0.983,True
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-4.02,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-7.037,False
+201905,201906,1,0.64,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-6.649,False
+201905,201907,2,0.64,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.238,False
+201905,201908,3,0.64,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.521,False
+201906,201906,0,0.52,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-1.202,True
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-4.596,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.24,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-2.333,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-3.003,False
+201906,201909,3,0.52,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-3.003,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.109,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-2.74,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-3.732,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-5.029,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.026,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-6.957,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-4.635,False
+201906,201907,1,0.52,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.19,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.11,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,-0.04,False
+201906,201906,0,0.52,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.01,True
+201906,201907,1,0.52,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-3.324,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-3.347,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.545,False
+201906,201906,0,0.52,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-2.175,True
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-7.037,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-0.528,False
+201906,201907,1,0.52,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-1.238,False
+201906,201908,2,0.52,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.521,False
+201906,201909,3,0.52,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-3.101,False
+201911,201911,0,0.58,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-1.153,True
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.871,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.113,True
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.345,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.185,True
+201911,202002,3,0.58,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,4.185,False
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,4.75,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.686,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.975,False
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ESTAVEL,0.073,False
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-1.419,False
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ESTAVEL,-0.058,False
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,6.83,True
+201911,201912,1,0.58,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,1.15,True
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.21,False
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.25,False
+201911,201911,0,0.58,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.51,False
+201911,201912,1,0.58,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,13.042,True
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.571,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.603,True
+201911,201911,0,0.58,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,1.752,False
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,1.433,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.27,True
+201911,201912,1,0.58,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,7.239,True
+201911,202001,2,0.58,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.956,True
+201911,202002,3,0.58,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.288,False
+201912,201912,0,0.66,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,7.611,False
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,4.113,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.493,True
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.185,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-3.268,False
+201912,202003,3,0.66,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-3.268,False
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,0.686,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,5.113,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,3.92,True
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-1.419,False
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,1.685,True
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,6.83,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,2.618,True
+201912,202001,1,0.66,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.21,False
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.25,False
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.07,False
+201912,201912,0,0.66,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,1.15,False
+201912,202001,1,0.66,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.571,True
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.603,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.475,True
+201912,201912,0,0.66,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,10.311,False
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.27,True
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.957,True
+201912,202001,1,0.66,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.956,True
+201912,202002,2,0.66,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.288,False
+201912,202003,3,0.66,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.492,True
+202001,202001,0,0.64,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,3.871,False
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,2.493,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.767,True
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-3.268,False
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,3.675,True
+202001,202004,3,0.64,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,3.675,False
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,5.113,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.863,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,9.831,True
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,1.685,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,8.117,True
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,2.618,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.547,True
+202001,202002,1,0.64,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.25,False
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.07,False
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,QUEDA,-0.31,False
+202001,202001,0,0.64,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.21,True
+202001,202002,1,0.64,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.603,True
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.475,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,5.045,True
+202001,202001,0,0.64,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,1.433,False
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.957,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.535,True
+202001,202002,1,0.64,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.288,False
+202001,202003,2,0.64,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.492,True
+202001,202004,3,0.64,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.681,False
+202002,202002,0,0.63,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,4.113,False
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.767,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.53,True
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,3.675,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.415,True
+202002,202005,3,0.63,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,4.415,False
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.863,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.304,False
+202002,202005,3,0.63,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,3.92,True
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,8.117,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.591,True
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.547,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-5.654,False
+202002,202003,1,0.63,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.07,False
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,QUEDA,-0.31,False
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,QUEDA,-0.38,False
+202002,202002,0,0.63,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.25,True
+202002,202003,1,0.63,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.475,True
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,5.045,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,-0.109,False
+202002,202002,0,0.63,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,4.27,False
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.535,True
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.301,True
+202002,202003,1,0.63,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.492,True
+202002,202004,2,0.63,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.681,False
+202002,202005,3,0.63,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-6.384,False
+202003,202003,0,0.53,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,2.493,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.53,True
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.228,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,4.415,True
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ESTAVEL,0.113,False
+202003,202006,3,0.53,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.113,True
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.304,False
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,4.968,True
+202003,202006,3,0.53,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-4.749,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,2.591,True
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-4.982,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-5.654,False
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,2.006,True
+202003,202004,1,0.53,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,QUEDA,-0.31,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,QUEDA,-0.38,False
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.26,False
+202003,202003,0,0.53,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.07,True
+202003,202004,1,0.53,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,5.045,True
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,-0.109,False
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.824,False
+202003,202003,0,0.53,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,4.957,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.301,True
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.001,True
+202003,202004,1,0.53,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.681,False
+202003,202005,2,0.53,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-6.384,False
+202003,202006,3,0.53,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,2.122,True
+202008,202008,0,-0.53,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.778,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,4.15,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.085,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.962,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,3.904,False
+202008,202011,3,-0.53,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,3.904,True
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,3.547,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.049,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,5.022,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,5.306,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,3.692,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,5.103,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,5.639,False
+202008,202009,1,-0.53,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.64,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.86,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.89,False
+202008,202008,0,-0.53,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.24,False
+202008,202009,1,-0.53,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,2.834,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,5.126,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,6.879,False
+202008,202008,0,-0.53,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-2.598,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.422,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.275,False
+202008,202009,1,-0.53,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,0.559,False
+202008,202010,2,-0.53,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,10.032,False
+202008,202011,3,-0.53,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,16.751,False
+202009,202009,0,-0.85,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,4.232,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.085,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,4.472,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,3.904,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.958,False
+202009,202012,3,-0.85,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,2.958,True
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,2.049,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,0.408,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.266,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,3.692,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.137,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,5.639,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-0.81,False
+202009,202010,1,-0.85,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.86,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.89,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.35,False
+202009,202009,0,-0.85,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.64,True
+202009,202010,1,-0.85,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,5.126,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,6.879,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,2.926,False
+202009,202009,0,-0.85,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.677,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.275,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.738,False
+202009,202010,1,-0.85,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,10.032,False
+202009,202011,2,-0.85,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,16.751,False
+202009,202012,3,-0.85,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.349,False
+202010,202010,0,-1.12,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,4.15,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,4.472,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.699,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.958,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.282,False
+202010,202101,3,-1.12,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.282,True
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,0.408,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.512,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,3.585,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.137,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.944,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-0.81,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-0.372,False
+202010,202011,1,-1.12,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.89,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.35,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.25,True
+202010,202010,0,-1.12,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.86,True
+202010,202011,1,-1.12,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,6.879,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,2.926,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.174,False
+202010,202010,0,-1.12,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.422,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.738,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.937,False
+202010,202011,1,-1.12,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,16.751,False
+202010,202012,2,-1.12,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.349,False
+202010,202101,3,-1.12,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.8,False
+202011,202011,0,-1.2,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.085,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.699,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,2.685,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.282,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.112,False
+202011,202102,3,-1.2,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.112,True
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.512,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-1.096,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,2.33,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.944,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.451,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-0.372,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.784,False
+202011,202012,1,-1.2,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.35,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.25,True
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.86,False
+202011,202011,0,-1.2,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.89,True
+202011,202012,1,-1.2,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,2.926,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.174,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.163,False
+202011,202011,0,-1.2,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.275,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.937,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.187,False
+202011,202012,1,-1.2,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.349,False
+202011,202101,2,-1.2,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.8,False
+202011,202102,3,-1.2,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-3.723,False
+202012,202012,0,-1.08,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,4.472,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,2.685,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.242,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.112,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.55,False
+202012,202103,3,-1.08,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,0.55,True
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-1.096,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,5.133,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,0.768,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.451,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.537,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.784,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.224,False
+202012,202101,1,-1.08,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,0.25,True
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.86,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.93,False
+202012,202012,0,-1.08,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,1.35,True
+202012,202101,1,-1.08,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.174,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.163,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.114,False
+202012,202012,0,-1.08,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.738,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.187,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.827,False
+202012,202101,1,-1.08,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.8,False
+202012,202102,2,-1.08,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-3.723,False
+202012,202103,3,-1.08,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.806,False
+202101,202101,0,-0.91,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.699,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.242,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,2.407,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.55,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.919,False
+202101,202104,3,-0.91,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-1.919,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,5.133,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,0.186,True
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,1.116,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.537,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.764,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.224,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.588,False
+202101,202102,1,-0.91,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.86,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.93,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.31,False
+202101,202101,0,-0.91,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,0.25,False
+202101,202102,1,-0.91,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.163,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.114,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.819,False
+202101,202101,0,-0.91,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-0.937,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.827,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,0.14,True
+202101,202102,1,-0.91,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-3.723,False
+202101,202103,2,-0.91,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.806,False
+202101,202104,3,-0.91,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.131,False
+202102,202102,0,-0.79,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,2.685,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,2.407,False
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.325,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.919,False
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.971,False
+202102,202105,3,-0.79,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.971,True
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,0.186,True
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,-0.262,True
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,4.332,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.764,False
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.397,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.588,False
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.323,False
+202102,202103,1,-0.79,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.93,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.31,False
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.83,False
+202102,202102,0,-0.79,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.86,True
+202102,202103,1,-0.79,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.114,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.819,False
+202102,202102,0,-0.79,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.187,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,0.14,True
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.908,False
+202102,202103,1,-0.79,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.806,False
+202102,202104,2,-0.79,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.131,False
+202102,202105,3,-0.79,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.155,True
+202103,202103,0,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.242,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.325,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.84,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.971,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.521,False
+202103,202106,3,-0.71,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,0.521,True
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,-0.262,True
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,0.542,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,1.59,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.397,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.225,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.323,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.766,False
+202103,202104,1,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.31,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.83,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.53,False
+202103,202103,0,-0.71,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.93,True
+202103,202104,1,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.819,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-5.969,False
+202103,202103,0,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.827,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.908,False
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,-0.299,True
+202103,202104,1,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.131,False
+202103,202105,2,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.155,True
+202103,202106,3,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.552,False
+202104,202104,0,-0.55,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,2.407,False
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.84,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.698,False
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.521,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.796,False
+202104,202107,3,-0.55,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,0.796,True
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,0.542,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,3.705,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ESTAVEL,0.204,True
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.225,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.929,False
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.766,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.916,False
+202104,202105,1,-0.55,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.83,False
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.53,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.96,False
+202104,202104,0,-0.55,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.31,True
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-5.969,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,3.286,False
+202104,202104,0,-0.55,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,0.14,True
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,-0.299,True
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.262,False
+202104,202105,1,-0.55,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.155,True
+202104,202106,2,-0.55,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.552,False
+202104,202107,3,-0.55,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.451,False
+202109,202109,0,-0.63,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-2.913,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.622,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.375,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.266,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.131,False
+202109,202112,3,-0.63,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.131,True
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.958,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.012,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.643,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,1.328,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.4,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,2.908,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ESTAVEL,-0.224,True
+202109,202110,1,-0.63,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.25,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.95,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.73,False
+202109,202109,0,-0.63,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,1.16,True
+202109,202110,1,-0.63,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,2.777,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.638,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.713,False
+202109,202109,0,-0.63,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-2.903,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.254,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.624,False
+202109,202110,1,-0.63,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,4.281,False
+202109,202111,2,-0.63,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.885,False
+202109,202112,3,-0.63,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.644,False
+202110,202110,0,-0.76,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.04,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.375,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,5.448,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.131,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.275,False
+202110,202201,3,-0.76,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.275,True
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.012,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,6.227,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,1.29,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.4,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,4.633,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ESTAVEL,-0.224,True
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.886,False
+202110,202111,1,-0.76,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.95,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.73,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.54,False
+202110,202110,0,-0.76,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,1.25,True
+202110,202111,1,-0.76,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.638,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.713,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.572,False
+202110,202110,0,-0.76,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,2.305,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.624,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.064,False
+202110,202111,1,-0.76,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.885,False
+202110,202112,2,-0.76,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.644,False
+202110,202201,3,-0.76,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,6.36,False
+202111,202111,0,-0.91,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.622,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,5.448,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.983,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.275,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.931,False
+202111,202202,3,-0.91,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.931,True
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,6.227,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.772,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,2.565,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,4.633,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.589,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.886,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,0.37,False
+202111,202112,1,-0.91,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.73,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.54,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.01,False
+202111,202111,0,-0.91,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.95,True
+202111,202112,1,-0.91,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.713,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.572,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.451,False
+202111,202111,0,-0.91,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.254,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.064,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.114,False
+202111,202112,1,-0.91,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.644,False
+202111,202201,2,-0.91,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,6.36,False
+202111,202202,3,-0.91,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.496,False
+202112,202112,0,-0.87,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,0.375,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.983,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.37,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.931,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.922,False
+202112,202203,3,-0.87,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.922,True
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.772,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.581,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,7.457,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.589,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,3.493,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,0.37,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.17,False
+202112,202201,1,-0.87,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.54,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.01,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.62,False
+202112,202112,0,-0.87,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.73,True
+202112,202201,1,-0.87,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.572,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.451,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.277,False
+202112,202112,0,-0.87,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.624,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.114,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.254,False
+202112,202201,1,-0.87,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,6.36,False
+202112,202202,2,-0.87,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.496,False
+202112,202203,3,-0.87,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,5.018,False
+202201,202201,0,-0.82,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,5.448,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.37,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.032,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.922,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,4.165,False
+202201,202204,3,-0.82,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,4.165,True
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.581,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,5.044,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,5.372,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,3.493,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.922,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.17,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.986,False
+202201,202202,1,-0.82,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.01,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.62,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.06,False
+202201,202201,0,-0.82,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.54,True
+202201,202202,1,-0.82,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.451,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.277,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,3.576,False
+202201,202201,0,-0.82,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.064,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.254,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.483,False
+202201,202202,1,-0.82,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.496,False
+202201,202203,2,-0.82,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,5.018,False
+202201,202204,3,-0.82,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,5.237,False
+202202,202202,0,-0.79,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.983,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.032,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.051,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,4.165,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.994,False
+202202,202205,3,-0.79,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,2.994,True
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,5.044,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.56,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-3.463,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.922,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.207,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.986,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.96,False
+202202,202203,1,-0.79,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.62,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.06,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.47,False
+202202,202202,0,-0.79,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,1.01,True
+202202,202203,1,-0.79,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.277,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,3.576,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-5.81,False
+202202,202202,0,-0.79,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,1.114,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.483,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.503,False
+202202,202203,1,-0.79,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,5.018,False
+202202,202204,2,-0.79,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,5.237,False
+202202,202205,3,-0.79,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-6.097,False
+202203,202203,0,-0.86,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.37,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.051,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.358,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.994,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.585,False
+202203,202206,3,-0.86,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,0.585,True
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.56,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,0.279,True
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.74,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.207,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.082,True
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.96,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.541,False
+202203,202204,1,-0.86,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,1.06,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.47,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.67,False
+202203,202203,0,-0.86,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,1.62,True
+202203,202204,1,-0.86,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,3.576,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-5.81,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.666,False
+202203,202203,0,-0.86,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.254,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.503,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.326,False
+202203,202204,1,-0.86,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,5.237,False
+202203,202205,2,-0.86,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-6.097,False
+202203,202206,3,-0.86,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.29,True
+202204,202204,0,-0.95,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.032,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.358,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-2.403,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,0.585,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.139,True
+202204,202207,3,-0.95,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ESTAVEL,0.139,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ESTAVEL,0.279,True
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-1.347,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.78,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.082,True
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.174,True
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,4.541,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.365,False
+202204,202205,1,-0.95,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.47,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.67,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,QUEDA,-0.68,False
+202204,202204,0,-0.95,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,1.06,True
+202204,202205,1,-0.95,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-5.81,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.666,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.509,False
+202204,202204,0,-0.95,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.483,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.326,False
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.957,False
+202204,202205,1,-0.95,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-6.097,False
+202204,202206,2,-0.95,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.29,True
+202204,202207,3,-0.95,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,0.798,False
+202205,202205,0,-0.9,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.051,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-2.403,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.772,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.139,True
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.27,True
+202205,202208,3,-0.9,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ESTAVEL,0.27,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-1.347,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.54,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-0.449,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ESTAVEL,-0.174,True
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.795,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.365,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.257,False
+202205,202206,1,-0.9,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.67,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,QUEDA,-0.68,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,QUEDA,-0.36,False
+202205,202205,0,-0.9,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.47,True
+202205,202206,1,-0.9,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-0.666,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.509,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-2.129,False
+202205,202205,0,-0.9,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.503,False
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.957,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.164,False
+202205,202206,1,-0.9,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.29,True
+202205,202207,2,-0.9,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,0.798,False
+202205,202208,3,-0.9,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-2.077,False
+202206,202206,0,-0.78,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,3.358,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.772,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.037,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.27,True
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.952,False
+202206,202209,3,-0.78,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-1.952,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.54,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-3.872,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.015,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-1.795,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.322,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-2.257,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-0.975,False
+202206,202207,1,-0.78,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,QUEDA,-0.68,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,QUEDA,-0.36,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,-0.29,True
+202206,202206,0,-0.78,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.67,True
+202206,202207,1,-0.78,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.509,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-2.129,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.876,False
+202206,202206,0,-0.78,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,4.326,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.164,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,0.136,True
+202206,202207,1,-0.78,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,0.798,False
+202206,202208,2,-0.78,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-2.077,False
+202206,202209,3,-0.78,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.305,False
+202207,202207,0,-0.76,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-2.403,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.037,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.489,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.952,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.163,False
+202207,202210,3,-0.76,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-1.163,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-3.872,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.611,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,2.59,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-0.322,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.595,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-0.975,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ESTAVEL,0.274,True
+202207,202208,1,-0.76,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,QUEDA,-0.36,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,-0.29,True
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.59,False
+202207,202207,0,-0.76,la_nina_fraca,Sul,IPCA - Geral,ALTA,QUEDA,-0.68,False
+202207,202208,1,-0.76,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-2.129,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.876,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.878,False
+202207,202207,0,-0.76,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-3.957,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,0.136,True
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.398,False
+202207,202208,1,-0.76,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-2.077,False
+202207,202209,2,-0.76,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.305,False
+202207,202210,3,-0.76,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.729,False
+202208,202208,0,-0.87,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.772,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.489,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.276,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.163,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.474,False
+202208,202211,3,-0.87,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.474,True
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.611,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.687,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,1.943,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.595,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.027,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ESTAVEL,0.274,True
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.301,False
+202208,202209,1,-0.87,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ESTAVEL,-0.29,True
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.59,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.41,False
+202208,202208,0,-0.87,la_nina_fraca,Sul,IPCA - Geral,ALTA,QUEDA,-0.36,False
+202208,202209,1,-0.87,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.876,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.878,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.68,False
+202208,202208,0,-0.87,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.164,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.398,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.125,False
+202208,202209,1,-0.87,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-0.305,False
+202208,202210,2,-0.87,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.729,False
+202208,202211,3,-0.87,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.875,False
+202209,202209,0,-0.97,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.037,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.276,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.703,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.474,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.427,False
+202209,202212,3,-0.97,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,2.427,True
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.687,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.774,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-1.575,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.027,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.196,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,1.301,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.698,False
+202209,202210,1,-0.97,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.59,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.41,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.62,False
+202209,202209,0,-0.97,la_nina_fraca,Sul,IPCA - Geral,ALTA,ESTAVEL,-0.29,False
+202209,202210,1,-0.97,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.878,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.68,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.425,False
+202209,202209,0,-0.97,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ESTAVEL,0.136,True
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.125,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.071,False
+202209,202210,1,-0.97,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.729,False
+202209,202211,2,-0.97,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.875,False
+202209,202212,3,-0.97,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,2.328,False
+202210,202210,0,-0.94,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-0.489,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.703,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,6.803,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.427,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.404,False
+202210,202301,3,-0.94,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,2.404,True
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.774,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,6.569,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-0.498,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,2.196,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.85,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.698,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.948,False
+202210,202211,1,-0.94,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.41,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.62,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.53,False
+202210,202210,0,-0.94,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.59,True
+202210,202211,1,-0.94,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,4.68,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.425,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.667,False
+202210,202210,0,-0.94,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.398,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.071,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,6.469,False
+202210,202211,1,-0.94,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,1.875,False
+202210,202212,2,-0.94,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,2.328,False
+202210,202301,3,-0.94,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.13,True
+202211,202211,0,-0.85,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-1.276,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,6.803,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ESTAVEL,0.007,True
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,2.404,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.248,False
+202211,202302,3,-0.85,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ALTA,1.248,True
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,6.569,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.416,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,QUEDA,-2.342,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,0.85,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.173,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.948,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.249,False
+202211,202212,1,-0.85,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.62,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.53,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.84,False
+202211,202211,0,-0.85,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.41,True
+202211,202212,1,-0.85,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,0.425,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.667,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.965,False
+202211,202211,0,-0.85,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.125,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,6.469,False
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.641,False
+202211,202212,1,-0.85,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,2.328,False
+202211,202301,2,-0.85,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.13,True
+202211,202302,3,-0.85,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.369,False
+202212,202212,0,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.703,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ESTAVEL,0.007,True
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.421,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ALTA,1.248,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.235,True
+202212,202303,3,-0.71,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,ESTAVEL,0.235,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-0.416,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-1.235,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ESTAVEL,0.127,True
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.173,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.051,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-1.249,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-3.486,False
+202212,202301,1,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.53,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.84,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.71,False
+202212,202212,0,-0.71,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.62,True
+202212,202301,1,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,1.667,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.965,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.72,False
+202212,202212,0,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,3.071,False
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,0.641,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.776,False
+202212,202301,1,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ESTAVEL,0.13,True
+202212,202302,2,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.369,False
+202212,202303,3,-0.71,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-3.671,False
+202301,202301,0,-0.54,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,6.803,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,QUEDA,-3.421,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Acucares e derivados,ESTAVEL,ALTA,1.009,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,0.235,True
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Aves e ovos,ESTAVEL,QUEDA,-0.567,False
+202301,202304,3,-0.54,la_nina_fraca,Sul,IPCA - Aves e ovos,ALTA,QUEDA,-0.567,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,QUEDA,-1.235,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Carnes e peixes,ESTAVEL,ALTA,1.419,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,"IPCA - Cereais, leguminosas e oleag",ESTAVEL,ALTA,2.102,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,QUEDA,-2.051,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Frutas,ESTAVEL,ALTA,3.528,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,QUEDA,-3.486,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Horticultura,ESTAVEL,ALTA,3.375,False
+202301,202302,1,-0.54,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.84,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.71,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Geral,ESTAVEL,ALTA,0.61,False
+202301,202301,0,-0.54,la_nina_fraca,Sul,IPCA - Geral,ALTA,ALTA,0.53,True
+202301,202302,1,-0.54,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.965,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,QUEDA,-3.72,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Leite e derivados,ESTAVEL,ALTA,2.198,False
+202301,202301,0,-0.54,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,ALTA,6.469,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.776,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Oleos e gorduras,ESTAVEL,QUEDA,-1.478,False
+202301,202302,1,-0.54,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-1.369,False
+202301,202303,2,-0.54,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,QUEDA,-3.671,False
+202301,202304,3,-0.54,la_nina_fraca,Nordeste,IPCA - Panificados,ESTAVEL,ALTA,3.428,False
+202305,202305,0,0.57,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-0.764,True
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-3.898,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.794,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.435,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.585,False
+202305,202308,3,0.57,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.585,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.507,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.832,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.75,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-1.745,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.46,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ESTAVEL,0.051,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-2.845,False
+202305,202306,1,0.57,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,-0.08,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.12,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.23,False
+202305,202305,0,0.57,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.23,True
+202305,202306,1,0.57,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.62,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.494,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.036,False
+202305,202305,0,0.57,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-0.624,True
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.946,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-5.29,False
+202305,202306,1,0.57,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.289,False
+202305,202307,2,0.57,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.036,False
+202305,202308,3,0.57,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.349,True
+202306,202306,0,0.84,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,4.121,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-2.794,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-0.437,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.585,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.028,False
+202306,202309,3,0.84,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.028,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.832,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-1.904,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.569,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.46,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-1.649,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-2.845,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.342,False
+202306,202307,1,0.84,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.12,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.23,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.26,False
+202306,202306,0,0.84,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,-0.08,True
+202306,202307,1,0.84,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.494,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.036,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.895,False
+202306,202306,0,0.84,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,5.0,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-5.29,False
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.064,True
+202306,202307,1,0.84,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.036,False
+202306,202308,2,0.84,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.349,True
+202306,202309,3,0.84,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-4.026,False
+202307,202307,0,1.12,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-3.898,True
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-0.437,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.372,False
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.028,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ESTAVEL,-0.096,False
+202307,202310,3,1.12,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ESTAVEL,-0.096,True
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-1.904,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-1.95,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.913,False
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-1.649,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.811,True
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.342,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.319,True
+202307,202308,1,1.12,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.23,False
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.26,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.24,False
+202307,202307,0,1.12,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.12,True
+202307,202308,1,1.12,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.036,False
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.895,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.956,False
+202307,202307,0,1.12,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-2.946,True
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.064,True
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.816,False
+202307,202308,1,1.12,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,0.349,True
+202307,202309,2,1.12,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-4.026,False
+202307,202310,3,1.12,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.181,False
+202308,202308,0,1.37,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-2.794,True
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.372,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.18,False
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ESTAVEL,-0.096,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.357,True
+202308,202311,3,1.37,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,0.357,False
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-1.95,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.996,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,1.249,True
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.811,True
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,1.968,True
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.319,True
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.39,False
+202308,202309,1,1.37,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.26,False
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.24,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.28,False
+202308,202308,0,1.37,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.23,True
+202308,202309,1,1.37,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-1.895,False
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.956,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.905,True
+202308,202308,0,1.37,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-5.29,True
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.816,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.546,False
+202308,202309,1,1.37,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-4.026,False
+202308,202310,2,1.37,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.181,False
+202308,202311,3,1.37,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,3.06,True
+202309,202309,0,1.6,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-0.437,True
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.18,False
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.1,False
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.357,True
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.615,True
+202309,202312,3,1.6,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.615,False
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.996,False
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ESTAVEL,0.097,False
+202309,202312,3,1.6,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,2.016,True
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,1.968,True
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,3.202,True
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.39,False
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.489,False
+202309,202310,1,1.6,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.24,False
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.28,False
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.56,True
+202309,202309,0,1.6,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.26,True
+202309,202310,1,1.6,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-0.956,False
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.905,True
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.597,True
+202309,202309,0,1.6,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,3.064,False
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-2.546,False
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-1.981,False
+202309,202310,1,1.6,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.181,False
+202309,202311,2,1.6,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,3.06,True
+202309,202312,3,1.6,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,4.668,True
+202310,202310,0,1.83,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-1.372,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-1.1,False
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.221,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.615,True
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.757,True
+202310,202401,3,1.83,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.757,False
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ESTAVEL,0.097,False
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.169,True
+202310,202401,3,1.83,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,4.161,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,3.202,True
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,6.176,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.489,False
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.913,False
+202310,202311,1,1.83,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.28,False
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.56,True
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.42,True
+202310,202310,0,1.83,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.24,True
+202310,202311,1,1.83,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.905,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.597,True
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,10.428,True
+202310,202310,0,1.83,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-2.816,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-1.981,False
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.534,True
+202310,202311,1,1.83,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,3.06,True
+202310,202312,2,1.83,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,4.668,True
+202310,202401,3,1.83,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,6.266,True
+202311,202311,0,1.99,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-1.18,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.221,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.845,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.757,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.27,True
+202311,202402,3,1.99,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.27,False
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,2.169,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,1.12,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,0.726,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,6.176,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.407,False
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.913,False
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.512,True
+202311,202312,1,1.99,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.56,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.42,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.83,True
+202311,202311,0,1.99,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.28,True
+202311,202312,1,1.99,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,2.597,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,10.428,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.377,True
+202311,202311,0,1.99,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-2.546,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,3.534,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.625,True
+202311,202312,1,1.99,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,4.668,True
+202311,202401,2,1.99,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,6.266,True
+202311,202402,3,1.99,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.082,False
+202312,202312,0,2.06,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,QUEDA,-1.1,True
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.845,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.318,True
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.27,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.362,True
+202312,202403,3,2.06,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,0.362,False
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,1.12,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.896,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-0.47,False
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.407,False
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.599,False
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,1.512,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,5.664,True
+202312,202401,1,2.06,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.42,True
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.83,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.16,False
+202312,202312,0,2.06,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.56,False
+202312,202401,1,2.06,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,10.428,True
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.377,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.055,False
+202312,202312,0,2.06,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,QUEDA,-1.981,True
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,0.625,True
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.492,True
+202312,202401,1,2.06,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,6.266,True
+202312,202402,2,2.06,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.082,False
+202312,202403,3,2.06,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,0.778,True
+202401,202401,0,1.92,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,3.221,False
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,3.318,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.404,True
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.362,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,2.085,True
+202401,202404,3,1.92,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,2.085,False
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,3.896,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,4.843,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ESTAVEL,-0.195,False
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.599,False
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.364,False
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,5.664,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,7.759,True
+202401,202402,1,1.92,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.83,True
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.16,False
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.38,True
+202401,202401,0,1.92,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.42,False
+202401,202402,1,1.92,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,0.377,True
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.055,False
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.027,False
+202401,202401,0,1.92,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,3.534,False
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.492,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.444,True
+202401,202402,1,1.92,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,-0.082,False
+202401,202403,2,1.92,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,0.778,True
+202401,202404,3,1.92,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.639,False
+202402,202402,0,1.62,el_nino_forte,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,0.845,False
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,5.404,True
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.963,True
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,2.085,True
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.399,True
+202402,202405,3,1.62,el_nino_forte,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,1.399,False
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,ALTA,4.843,True
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.44,False
+202402,202405,3,1.62,el_nino_forte,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,2.039,True
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,QUEDA,-0.364,False
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Frutas,ALTA,ALTA,0.499,True
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,ALTA,7.759,True
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.669,False
+202402,202403,1,1.62,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.16,False
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.38,True
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Geral,ALTA,ALTA,0.46,True
+202402,202402,0,1.62,el_nino_forte,Sul,IPCA - Geral,ESTAVEL,ALTA,0.83,False
+202402,202403,1,1.62,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.055,False
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.027,False
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.709,False
+202402,202402,0,1.62,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,0.625,False
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,4.444,True
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,1.245,True
+202402,202403,1,1.62,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,0.778,True
+202402,202404,2,1.62,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.639,False
+202402,202405,3,1.62,el_nino_forte,Nordeste,IPCA - Panificados,ALTA,ALTA,1.294,True
+202403,202403,0,1.26,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,3.318,False
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,ALTA,0.963,True
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-3.762,False
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,1.399,True
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.666,True
+202403,202406,3,1.26,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,ALTA,0.666,False
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-0.44,False
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.035,False
+202403,202406,3,1.26,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,ALTA,1.814,True
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.499,True
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.982,True
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-0.669,False
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.771,False
+202403,202404,1,1.26,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.38,True
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.46,True
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.21,False
+202403,202403,0,1.26,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ESTAVEL,0.16,True
+202403,202404,1,1.26,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ESTAVEL,0.027,False
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.709,False
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.177,True
+202403,202403,0,1.26,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,4.492,False
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,ALTA,1.245,True
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-6.376,False
+202403,202404,1,1.26,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-2.639,False
+202403,202405,2,1.26,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.294,True
+202403,202406,3,1.26,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.212,False
+202404,202404,0,0.82,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,QUEDA,ALTA,5.404,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-3.762,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Acucares e derivados,ALTA,QUEDA,-4.175,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,ALTA,0.666,True
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Aves e ovos,ALTA,QUEDA,-1.896,False
+202404,202407,3,0.82,el_nino_fraco,Sul,IPCA - Aves e ovos,ESTAVEL,QUEDA,-1.896,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-3.035,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Carnes e peixes,ALTA,QUEDA,-6.705,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,"IPCA - Cereais, leguminosas e oleag",ALTA,QUEDA,-4.847,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,ALTA,0.982,True
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Frutas,ALTA,QUEDA,-2.172,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-1.771,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Horticultura,ALTA,QUEDA,-2.839,False
+202404,202405,1,0.82,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.46,True
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ESTAVEL,0.21,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Geral,ALTA,ALTA,0.38,True
+202404,202404,0,0.82,el_nino_fraco,Sul,IPCA - Geral,ESTAVEL,ALTA,0.38,False
+202404,202405,1,0.82,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-2.709,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,ALTA,1.177,True
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Leite e derivados,ALTA,QUEDA,-6.394,False
+202404,202404,0,0.82,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,QUEDA,ALTA,4.444,False
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-6.376,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Oleos e gorduras,ALTA,QUEDA,-4.033,False
+202404,202405,1,0.82,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ALTA,1.294,True
+202404,202406,2,0.82,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,ESTAVEL,0.212,False
+202404,202407,3,0.82,el_nino_fraco,Nordeste,IPCA - Panificados,ALTA,QUEDA,-6.038,False

@@ -1,0 +1,13 @@
+id_regiao,estado,regiao,bioma,cidade
+1,AL,Nordeste,Mata Atlântica,Maceió
+2,BA,Nordeste,Caatinga,Salvador
+3,CE,Nordeste,Caatinga,Fortaleza
+4,MA,Nordeste,Cerrado,São Luís
+5,PB,Nordeste,Caatinga,João Pessoa
+6,PE,Nordeste,Caatinga,Recife
+7,PI,Nordeste,Caatinga,Teresina
+8,PR,Sul,Mata Atlântica,Curitiba
+9,RN,Nordeste,Caatinga,Natal
+10,RS,Sul,Pampa,Porto Alegre
+11,SC,Sul,Mata Atlântica,Florianópolis
+12,SE,Nordeste,Mata Atlântica,Aracaju
