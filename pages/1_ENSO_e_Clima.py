@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import datetime
-from utils.dados import carregar_oni, carregar_precipitacao, carregar_ndvi, carregar_corr_oni_precip
+from utils.dados import carregar_oni, carregar_precipitacao, carregar_ndvi, carregar_corr_oni_precip, buscar_previsao_enso_noaa
 
 st.set_page_config(page_title="ENSO & Clima · CustoClima", page_icon="🌧️", layout="wide")
 
@@ -83,27 +83,49 @@ st.warning(
     "Para previsões oficiais, consulte **INMET** e **CPTEC/INPE**."
 )
 
-ultimo_oni  = df_oni.sort_values("periodo").iloc[-1]
-oni_atual   = float(ultimo_oni["oni"])
-fase_oni    = str(ultimo_oni["fase_enso"])
+ultimo_oni = df_oni.sort_values("periodo").iloc[-1]
+oni_medido = float(ultimo_oni["oni"])
 
-# Confiança baseada na fase atual
-if "forte" in fase_oni:
-    conf_label, conf_cor = "~67% — El Niño/La Niña forte (maior confiança)", "#e67e22"
-elif "fraco" in fase_oni:
-    conf_label, conf_cor = "~55% — El Niño/La Niña fraco (confiança moderada)", "#f39c12"
+# ── Busca previsão oficial da NOAA ────────────────────────────────────────────
+noaa = buscar_previsao_enso_noaa()
+
+if noaa["ok"]:
+    cor, icone = noaa["cor"], noaa["icone"]
+    prob_txt = f" &nbsp;·&nbsp; {noaa['probabilidade']}" if noaa.get("probabilidade") else ""
+    st.markdown(f"""
+    <div style='background:{cor}10; border:1px solid {cor}50;
+                padding:14px 18px; border-radius:10px; margin-bottom:12px'>
+        <div style='font-size:1rem; font-weight:700; color:{cor}'>{icone} {noaa['fase']}</div>
+        <div style='font-size:0.9rem; color:#444; margin-top:4px'>{noaa['impacto']}{prob_txt}</div>
+        <div style='font-size:0.75rem; color:#aaa; margin-top:6px'>
+            Fonte: <a href='{noaa['fonte_url']}' target='_blank'
+            style='color:#aaa'>NOAA Climate Prediction Center</a>
+            &nbsp;·&nbsp; atualizado automaticamente a cada 12h
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    oni_atual = noaa["oni_sugerido"]
+else:
+    st.info("Não foi possível conectar à NOAA agora. Usando ONI medido.")
+    oni_atual = oni_medido
+
+# Confiança baseada na previsão em uso
+if abs(oni_atual) >= 1.0:
+    conf_label, conf_cor = "~67% — fase forte (maior confiança)", "#e67e22"
+elif abs(oni_atual) >= 0.5:
+    conf_label, conf_cor = "~55% — fase fraca (confiança moderada)", "#f39c12"
 else:
     conf_label, conf_cor = "~50% — fase neutra (próximo ao acaso)", "#95a5a6"
 
 st.markdown(
-    f"<div style='font-size:0.88rem; color:{conf_cor}; margin-bottom:12px'>"
-    f"🎯 <b>Confiança atual do modelo:</b> {conf_label}</div>",
+    f"<div style='font-size:0.82rem; color:{conf_cor}; margin-bottom:10px'>"
+    f"🎯 <b>Confiança do modelo:</b> {conf_label}</div>",
     unsafe_allow_html=True,
 )
 
 df_corr_oni = carregar_corr_oni_precip()
 
-hoje     = pd.Timestamp.today()
+hoje      = pd.Timestamp.today()
 NOMES_MES = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"]
 
 colunas_mes = []
@@ -124,7 +146,7 @@ for lag in range(1, 7):
             continue
 
         r     = float(row.iloc[0]["r_oni_precip"])
-        sinal = r * oni_atual  # positivo = acima da média, negativo = abaixo
+        sinal = r * oni_atual
 
         if regiao == "Nordeste":
             if sinal < -0.25:

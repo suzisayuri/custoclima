@@ -64,6 +64,65 @@ def carregar_corr_oni_precip() -> pd.DataFrame:
     return pd.read_csv(PROC / "correlacao_oni_precip.csv")
 
 
+@st.cache_data(ttl=3600 * 12)  # atualiza a cada 12 horas
+def buscar_previsao_enso_noaa() -> dict:
+    """Busca o status oficial do ENSO no NOAA CPC e retorna em linguagem simples."""
+    import re, html as html_lib, requests
+
+    try:
+        url = "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+        r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+        text = r.text
+
+        # ── Status (Watch / Advisory / Neutral) ──────────────────────────────
+        match = re.search(
+            r'ENSO Alert System Status:.*?<span[^>]*>(.*?)</span>', text, re.DOTALL
+        )
+        status_raw = html_lib.unescape(match.group(1)).strip() if match else ""
+        status_raw = re.sub(r'<[^>]+>', '', status_raw).strip()
+
+        # ── Probabilidade ──────────────────────────────────────────────────────
+        match_prob = re.search(r'(\d+)&#37;\s*chance in ([A-Za-z\-]+\s+\d{4})', text)
+        probabilidade = None
+        if match_prob:
+            pct   = match_prob.group(1)
+            prazo = match_prob.group(2)
+            probabilidade = f"{pct}% de chance em {prazo}"
+
+        # ── Mapeia status → linguagem do gestor ───────────────────────────────
+        s = status_raw.upper()
+        if "EL NI" in s and "ADVISORY" in s:
+            fase, oni_sug, cor, icone = "El Niño confirmado", 1.0, "#e74c3c", "🔴"
+            impacto = "Seca no Nordeste em andamento. Risco alto de alta nos preços."
+        elif "EL NI" in s and "WATCH" in s:
+            fase, oni_sug, cor, icone = "El Niño previsto", 0.7, "#e67e22", "🟠"
+            impacto = "El Niño deve se desenvolver em breve. Prepare-se para seca no Nordeste."
+        elif "LA NI" in s and "ADVISORY" in s:
+            fase, oni_sug, cor, icone = "La Niña confirmada", -1.0, "#2980b9", "🔵"
+            impacto = "La Niña em andamento. Risco de enchentes no Sul."
+        elif "LA NI" in s and "WATCH" in s:
+            fase, oni_sug, cor, icone = "La Niña prevista", -0.7, "#5dade2", "🔵"
+            impacto = "La Niña deve se desenvolver. Atenção a chuvas acima do normal no Sul."
+        else:
+            fase, oni_sug, cor, icone = "Neutro", 0.0, "#27ae60", "🟢"
+            impacto = "Nenhuma anomalia climática significativa prevista."
+
+        return {
+            "ok":           True,
+            "status_raw":   status_raw,
+            "fase":         fase,
+            "oni_sugerido": oni_sug,
+            "cor":          cor,
+            "icone":        icone,
+            "impacto":      impacto,
+            "probabilidade": probabilidade,
+            "fonte_url":    url,
+        }
+
+    except Exception as exc:
+        return {"ok": False, "erro": str(exc)}
+
+
 # Coordenadas dos estados para o mapa
 COORDS_ESTADOS = {
     "CE": (-3.72,  -38.54, "Fortaleza"),
