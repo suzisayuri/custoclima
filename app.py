@@ -1,21 +1,16 @@
 """
-AgroClima Brasil — Monitor de Risco Alimentar
-Página principal: Alertas e status atual do ENSO
+CustoClima — Do clima ao supermercado
+Painel executivo: semáforo de risco por produto para varejistas e restaurantes
 """
 import sys
 sys.path.insert(0, ".")
 
 import streamlit as st
-import pandas as pd
-import plotly.express as px
 import plotly.graph_objects as go
-from utils.dados import (
-    carregar_alertas, carregar_oni, carregar_precipitacao,
-    COORDS_ESTADOS, FASE_EMOJI,
-)
+from utils.dados import carregar_alertas, carregar_oni
 
 st.set_page_config(
-    page_title="AgroClima Brasil",
+    page_title="CustoClima",
     page_icon="🌾",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -23,215 +18,184 @@ st.set_page_config(
 
 # ── Cabeçalho ─────────────────────────────────────────────────────────────────
 st.markdown("""
-<h1 style='color:#27ae60; margin-bottom:0'>🌾 AgroClima Brasil</h1>
-<p style='color:#666; font-size:1.1rem; margin-top:4px'>
-Monitor de risco alimentar baseado em dados climáticos e de satélite NASA
+<h1 style='color:#27ae60; margin-bottom:0'>🌾 CustoClima</h1>
+<p style='color:#666; font-size:1.05rem; margin-top:4px'>
+Do clima ao supermercado — planejamento de compras com antecedência
 </p>
 """, unsafe_allow_html=True)
+
+# ── Seletor de perfil ─────────────────────────────────────────────────────────
+segmento = st.radio(
+    "**Meu perfil:**",
+    ["🏪 Varejista", "🍽️ Restaurante"],
+    horizontal=True,
+    help="Adapta a linguagem das recomendações ao seu tipo de negócio.",
+)
+col_msg = "mensagem_varejista" if "Varejista" in segmento else "mensagem_restaurante"
+
 st.divider()
 
 # ── Carrega dados ─────────────────────────────────────────────────────────────
 df_alertas = carregar_alertas()
 df_oni     = carregar_oni()
-df_precip  = carregar_precipitacao()
+
+if col_msg not in df_alertas.columns:
+    col_msg = "mensagem_alerta"
 
 ultimo_oni = df_oni.sort_values("periodo").iloc[-1]
-oni_val    = float(ultimo_oni["oni"])
-fase       = str(ultimo_oni["fase_enso"])
-emoji      = FASE_EMOJI.get(fase, "⚪")
+fase_oni   = str(ultimo_oni["fase_enso"])
 
-alertas_alta = df_alertas[df_alertas["direcao_preco"] == "ALTA"].copy()
+# ── Banner de status climático ────────────────────────────────────────────────
+FASE_INFO = {
+    "el_nino_forte": ("#e74c3c", "⚠️ El Niño forte",
+                      "Alto risco de seca no Nordeste. Acompanhe os alertas de preço abaixo."),
+    "el_nino_fraco": ("#e67e22", "⚠️ El Niño fraco",
+                      "Tendência de seca no Nordeste. Fique atento a altas de preço nos próximos meses."),
+    "la_nina_forte": ("#2980b9", "⚠️ La Niña forte",
+                      "Alto risco de enchentes no Sul. Produtos da região podem encarecer."),
+    "la_nina_fraca": ("#5dade2", "⚠️ La Niña fraca",
+                      "Tendência de chuvas acima do normal no Sul. Monitore o impacto em preços."),
+    "neutro":        ("#27ae60", "✅ Clima estável",
+                      "Nenhuma anomalia climática significativa no momento. Planeje compras normalmente."),
+}
+cor_e, titulo_e, desc_e = FASE_INFO.get(
+    fase_oni, ("#27ae60", "✅ Clima estável", "Nenhuma anomalia climática significativa.")
+)
 
-# ── Status ENSO ───────────────────────────────────────────────────────────────
-st.subheader("Status Climático Atual")
-
-col1, col2, col3, col4 = st.columns(4)
-
-with col1:
-    cor_oni = "#e74c3c" if oni_val >= 0.5 else "#3498db" if oni_val <= -0.5 else "#27ae60"
-    st.markdown(f"""
-    <div style='background:{cor_oni}15; border-left:4px solid {cor_oni};
-                padding:16px; border-radius:8px; height:110px'>
-        <div style='font-size:0.85rem; color:#666'>Índice ONI (ENSO)</div>
-        <div style='font-size:2rem; font-weight:bold; color:{cor_oni}'>{oni_val:+.2f}°C</div>
-        <div style='font-size:0.9rem'>{emoji} {fase.replace("_", " ").title()}</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col2:
-    n_alertas = len(alertas_alta)
-    cor_alerta = "#e74c3c" if n_alertas > 0 else "#27ae60"
-    st.markdown(f"""
-    <div style='background:{cor_alerta}15; border-left:4px solid {cor_alerta};
-                padding:16px; border-radius:8px; height:110px'>
-        <div style='font-size:0.85rem; color:#666'>Alertas Ativos</div>
-        <div style='font-size:2rem; font-weight:bold; color:{cor_alerta}'>{n_alertas}</div>
-        <div style='font-size:0.9rem'>produtos em risco</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col3:
-    precip_nord = df_precip[df_precip["regiao"] == "Nordeste"]["precipitacao_mm_total"].iloc[-12:].mean()
-    st.markdown(f"""
-    <div style='background:#3498db15; border-left:4px solid #3498db;
-                padding:16px; border-radius:8px; height:110px'>
-        <div style='font-size:0.85rem; color:#666'>Precipitação Nordeste</div>
-        <div style='font-size:2rem; font-weight:bold; color:#3498db'>{precip_nord:.0f} mm</div>
-        <div style='font-size:0.9rem'>média últimos 12 meses</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col4:
-    periodo_ref = str(ultimo_oni["periodo"])
-    ano, mes = periodo_ref[:4], periodo_ref[4:]
-    st.markdown(f"""
-    <div style='background:#95a5a615; border-left:4px solid #95a5a6;
-                padding:16px; border-radius:8px; height:110px'>
-        <div style='font-size:0.85rem; color:#666'>Última atualização</div>
-        <div style='font-size:2rem; font-weight:bold; color:#95a5a6'>{mes}/{ano}</div>
-        <div style='font-size:0.9rem'>Fonte: NOAA / BCB / NASA</div>
-    </div>
-    """, unsafe_allow_html=True)
+st.markdown(f"""
+<div style='background:{cor_e}10; border:1px solid {cor_e}50;
+            padding:14px 20px; border-radius:10px; margin-bottom:8px'>
+    <span style='font-size:1.05rem; font-weight:700; color:{cor_e}'>{titulo_e}</span>
+    <span style='font-size:0.92rem; color:#555; margin-left:12px'>{desc_e}</span>
+</div>
+""", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-# ── Alertas ───────────────────────────────────────────────────────────────────
-col_alertas, col_mapa = st.columns([1, 1])
+# ── Semáforo de produtos ───────────────────────────────────────────────────────
+ICONE_PRODUTO = {
+    "acucares e derivados":         "🍬",
+    "aves e ovos":                  "🥚",
+    "carnes e peixes":              "🥩",
+    "cereais, leguminosas e oleag": "🌾",
+    "frutas":                       "🍎",
+    "horticultura":                 "🥦",
+    "leite e derivados":            "🥛",
+    "oleos e gorduras":             "🫙",
+    "panificados":                  "🍞",
+}
 
-with col_alertas:
-    st.subheader("📢 Alertas de Preço")
+COR_NIVEL = {
+    "ALTO":    ("#e74c3c", "🔴", "RISCO ALTO"),
+    "MODERADO":("#e67e22", "🟠", "RISCO MODERADO"),
+    "QUEDA":   ("#2980b9", "🔵", "TENDÊNCIA DE QUEDA"),
+    "ESTAVEL": ("#27ae60", "🟢", "ESTÁVEL"),
+}
 
-    if alertas_alta.empty:
-        st.success("""
-        ✅ **Nenhum alerta crítico no momento.**
+ACAO_ESTAVEL = {
+    "🏪 Varejista":   "Compra no ritmo normal. Sem necessidade de ação antecipada.",
+    "🍽️ Restaurante": "Cardápio normal. Nenhuma substituição necessária por pressão de custo.",
+}
 
-        O ENSO está em fase neutra. Quando El Niño ou La Niña se
-        desenvolverem, os alertas aparecerão aqui com antecedência
-        de 2 a 6 meses.
 
-        **Exemplo de alerta em El Niño forte:**
-        > Risco alto de alta em carnes e peixes nos próximos 2-3 meses. Confiança: 67%.
-        """)
-    else:
-        for _, row in alertas_alta.sort_values("pct_confianca", ascending=False).iterrows():
-            nivel = row["confianca"]
-            cor   = "#e74c3c" if nivel == "alta" else "#e67e22"
-            icon  = "🔴" if nivel == "alta" else "🟠"
-            st.markdown(f"""
-            <div style='background:{cor}12; border:1px solid {cor}40;
-                        padding:14px 16px; border-radius:8px; margin-bottom:10px'>
-                <div style='font-weight:600; color:{cor}'>{icon} {row['mensagem_alerta']}</div>
-                <div style='font-size:0.8rem; color:#888; margin-top:4px'>
-                    Região: {row['regiao']} &nbsp;|&nbsp;
-                    Produto: {row['produto'].replace('IPCA - ','')} &nbsp;|&nbsp;
-                    Horizonte: {row['horizonte_meses']} meses
-                </div>
+def nivel_produto(grupo):
+    altas = grupo[grupo["direcao_preco"] == "ALTA"]
+    if not altas.empty:
+        row = altas.sort_values("pct_confianca", ascending=False).iloc[0]
+        return ("ALTO" if row["confianca"] == "alta" else "MODERADO"), row
+    quedas = grupo[grupo["direcao_preco"] == "QUEDA"]
+    if not quedas.empty:
+        return "QUEDA", quedas.iloc[0]
+    return "ESTAVEL", grupo.iloc[0]
+
+
+# Exclui "Geral" — não é um produto acionável
+df_prod = df_alertas[~df_alertas["produto"].str.contains("Geral", case=False)]
+
+produtos_status = []
+for produto, grupo in df_prod.groupby("produto"):
+    nivel, row = nivel_produto(grupo)
+    nome    = produto.replace("IPCA - ", "").lower()
+    icone_p = ICONE_PRODUTO.get(nome, "🛒")
+    mensagem = (
+        ACAO_ESTAVEL[segmento]
+        if nivel == "ESTAVEL"
+        else (row[col_msg] if col_msg in row.index else row["mensagem_alerta"])
+    )
+    produtos_status.append((nivel, nome.title(), icone_p, mensagem,
+                            int(row["horizonte_meses"]), row["regiao"]))
+
+ordem = {"ALTO": 0, "MODERADO": 1, "QUEDA": 2, "ESTAVEL": 3}
+produtos_status.sort(key=lambda x: ordem[x[0]])
+
+n_ativos = sum(1 for p in produtos_status if p[0] in ("ALTO", "MODERADO"))
+
+if n_ativos:
+    st.subheader(f"⚠️ {n_ativos} produto{'s' if n_ativos > 1 else ''} em alerta")
+else:
+    st.subheader("✅ Todos os produtos estáveis agora")
+
+cols = st.columns(3)
+for i, (nivel, nome, icone_p, mensagem, horizonte, regiao) in enumerate(produtos_status):
+    cor, icone_n, label = COR_NIVEL[nivel]
+    rodape = (
+        f"<div style='font-size:0.75rem; color:#aaa; margin-top:8px'>"
+        f"Horizonte: {horizonte} meses &nbsp;·&nbsp; {regiao}</div>"
+        if nivel != "ESTAVEL" else ""
+    )
+    with cols[i % 3]:
+        st.markdown(f"""
+        <div style='background:{cor}0d; border-left:5px solid {cor};
+                    padding:14px 16px; border-radius:8px; margin-bottom:12px; min-height:140px'>
+            <div style='font-size:1rem; font-weight:700; margin-bottom:6px'>
+                {icone_p} {nome}
             </div>
-            """, unsafe_allow_html=True)
+            <div style='display:inline-block; background:{cor}20; color:{cor};
+                        font-size:0.72rem; font-weight:700; padding:2px 9px;
+                        border-radius:12px; margin-bottom:8px; letter-spacing:0.3px'>
+                {icone_n} {label}
+            </div>
+            <div style='font-size:0.87rem; color:#444; line-height:1.45'>{mensagem}</div>
+            {rodape}
+        </div>
+        """, unsafe_allow_html=True)
 
-with col_mapa:
-    st.subheader("🗺️ Mapa de Risco por Região")
+st.divider()
 
-    # Monta pontos para o mapa
-    pontos = []
-    for estado, (lat, lon, cidade) in COORDS_ESTADOS.items():
-        regiao = "Nordeste" if estado not in ["RS","SC","PR"] else "Sul"
-
-        # Determina risco com base nos alertas ativos para a região
-        alertas_reg = df_alertas[df_alertas["regiao"] == regiao]
-        tem_alta = (alertas_reg["direcao_preco"] == "ALTA").any()
-        n_alta   = (alertas_reg["direcao_preco"] == "ALTA").sum()
-
-        if tem_alta and regiao == "Nordeste" and n_alta >= 5:
-            nivel, cor, size = "ALTO",     "#e74c3c", 18
-        elif tem_alta:
-            nivel, cor, size = "MODERADO", "#e67e22", 14
-        else:
-            nivel, cor, size = "NORMAL",   "#27ae60", 10
-
-        pontos.append({
-            "lat": lat, "lon": lon,
-            "cidade": cidade, "estado": estado,
-            "regiao": regiao, "nivel": nivel,
-            "cor": cor, "size": size,
-            "texto": f"{estado} — {nivel}",
-        })
-
-    df_map = pd.DataFrame(pontos)
-
-    fig_map = go.Figure()
-    fig_map.add_trace(go.Scattergeo(
-        lat=df_map["lat"],
-        lon=df_map["lon"],
-        text=df_map["texto"],
-        mode="markers+text",
-        textposition="top center",
-        textfont=dict(size=9),
-        marker=dict(
-            size=df_map["size"],
-            color=df_map["cor"],
-            opacity=0.85,
-            line=dict(width=1, color="white"),
-        ),
-        hovertemplate="<b>%{text}</b><extra></extra>",
+# ── Gráfico ONI colapsado ─────────────────────────────────────────────────────
+with st.expander("📊 Como está o clima agora? (índice ENSO — últimos 36 meses)"):
+    df_oni_rec = df_oni.sort_values("data").tail(36)
+    fig_oni = go.Figure()
+    fig_oni.add_hrect(y0=0.5,  y1=3,   fillcolor="#e74c3c", opacity=0.08, line_width=0)
+    fig_oni.add_hrect(y0=-3,   y1=-0.5,fillcolor="#3498db", opacity=0.08, line_width=0)
+    fig_oni.add_hline(y=0,    line_dash="dash", line_color="gray",    line_width=0.8)
+    fig_oni.add_hline(y=0.5,  line_dash="dot",  line_color="#e74c3c", line_width=0.6,
+                      annotation_text="El Niño", annotation_position="right")
+    fig_oni.add_hline(y=-0.5, line_dash="dot",  line_color="#3498db", line_width=0.6,
+                      annotation_text="La Niña", annotation_position="right")
+    fig_oni.add_trace(go.Scatter(
+        x=df_oni_rec["data"], y=df_oni_rec["oni"],
+        fill="tozeroy",
+        line=dict(color="#27ae60", width=2),
+        fillcolor="rgba(39,174,96,0.15)",
+        name="ONI",
     ))
-    fig_map.update_layout(
-        geo=dict(
-            scope="south america",
-            center=dict(lat=-12, lon=-48),
-            projection_scale=2.8,
-            showland=True, landcolor="#f5f5dc",
-            showocean=True, oceancolor="#d6eaf8",
-            showcoastlines=True, coastlinecolor="#bdc3c7",
-            showcountries=True, countrycolor="#bdc3c7",
-        ),
-        margin=dict(l=0, r=0, t=0, b=0),
-        height=350,
+    fig_oni.update_layout(
+        height=200, margin=dict(l=0, r=80, t=10, b=0),
+        yaxis=dict(title="", range=[-2.5, 2.5]),
+        showlegend=False,
         paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
     )
-
-    # Legenda manual
-    for nivel, cor in [("ALTO","#e74c3c"),("MODERADO","#e67e22"),("NORMAL","#27ae60")]:
-        fig_map.add_trace(go.Scattergeo(
-            lat=[None], lon=[None], mode="markers",
-            marker=dict(size=10, color=cor),
-            name=nivel, showlegend=True,
-        ))
-    fig_map.update_layout(
-        legend=dict(orientation="h", y=-0.05, x=0.1, font=dict(size=10))
+    st.plotly_chart(fig_oni, use_container_width=True)
+    st.caption(
+        "Acima de +0.5 = El Niño (seca no Nordeste) · "
+        "Abaixo de -0.5 = La Niña (enchentes no Sul) · "
+        "Modelo calibrado com dados de 2015–2024."
     )
-
-    st.plotly_chart(fig_map, use_container_width=True)
-
-# ── ONI Recente (mini chart) ─────────────────────────────────────────────────
-st.subheader("📈 Índice ENSO — Últimos 36 meses")
-df_oni_rec = df_oni.sort_values("data").tail(36)
-
-fig_oni = go.Figure()
-fig_oni.add_hrect(y0=0.5, y1=3,   fillcolor="#e74c3c", opacity=0.08, line_width=0)
-fig_oni.add_hrect(y0=-3,  y1=-0.5,fillcolor="#3498db", opacity=0.08, line_width=0)
-fig_oni.add_hline(y=0, line_dash="dash", line_color="gray", line_width=0.8)
-fig_oni.add_hline(y=0.5,  line_dash="dot", line_color="#e74c3c", line_width=0.6,
-                  annotation_text="El Niño", annotation_position="right")
-fig_oni.add_hline(y=-0.5, line_dash="dot", line_color="#3498db", line_width=0.6,
-                  annotation_text="La Niña", annotation_position="right")
-fig_oni.add_trace(go.Scatter(
-    x=df_oni_rec["data"], y=df_oni_rec["oni"],
-    fill="tozeroy",
-    line=dict(color="#27ae60", width=2),
-    fillcolor="rgba(39,174,96,0.15)",
-    name="ONI",
-))
-fig_oni.update_layout(
-    height=220, margin=dict(l=0,r=60,t=10,b=0),
-    yaxis=dict(title="°C", range=[-2.5,2.5]),
-    showlegend=False,
-    paper_bgcolor="rgba(0,0,0,0)",
-    plot_bgcolor="rgba(0,0,0,0)",
-)
-st.plotly_chart(fig_oni, use_container_width=True)
 
 st.caption(
-    "Fontes: NOAA (ENSO/ONI), BCB (IPCA), Open-Meteo (precipitação), "
-    "NASA MODIS AppEEARS (NDVI) · Modelo com 67% de acurácia para El Niño forte"
+    "Dados: NOAA · BCB · Open-Meteo · NASA MODIS · "
+    "67% de acurácia para El Niño forte · "
+    "Use o menu lateral para análises detalhadas."
 )

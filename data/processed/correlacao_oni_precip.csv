@@ -1,0 +1,15 @@
+regiao,lag_meses,r_oni_precip,p_valor,significativo
+Nordeste,0,-0.2274,0.008,True
+Nordeste,1,-0.2036,0.0183,True
+Nordeste,2,-0.1907,0.0279,True
+Nordeste,3,-0.1913,0.028,True
+Nordeste,4,-0.2249,0.0098,True
+Nordeste,5,-0.2834,0.0011,True
+Nordeste,6,-0.3526,0.0,True
+Sul,0,0.2465,0.004,True
+Sul,1,0.2412,0.005,True
+Sul,2,0.2355,0.0064,True
+Sul,3,0.2213,0.0108,True
+Sul,4,0.2118,0.0152,True
+Sul,5,0.1884,0.0318,True
+Sul,6,0.1585,0.0729,False

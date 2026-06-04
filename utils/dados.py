@@ -59,6 +59,11 @@ def carregar_backtesting() -> pd.DataFrame:
     return pd.read_csv(PROC / "backtesting_v2.csv")
 
 
+@st.cache_data
+def carregar_corr_oni_precip() -> pd.DataFrame:
+    return pd.read_csv(PROC / "correlacao_oni_precip.csv")
+
+
 # Coordenadas dos estados para o mapa
 COORDS_ESTADOS = {
     "CE": (-3.72,  -38.54, "Fortaleza"),

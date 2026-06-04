@@ -60,7 +60,7 @@ PAUSA_SEGUNDOS = 1.0
 
 
 def coletar_precipitacao_estado(
-    localidade: dict, ano_inicio: int = 2015, ano_fim: int = 2024
+    localidade: dict, ano_inicio: int = 2015, ano_fim: int = 2026
 ) -> pd.DataFrame:
     """
     Coleta dados diários da Open-Meteo e agrega para mensal.
@@ -70,7 +70,7 @@ def coletar_precipitacao_estado(
         "latitude":   localidade["lat"],
         "longitude":  localidade["lon"],
         "start_date": f"{ano_inicio}-01-01",
-        "end_date":   f"{ano_fim}-12-31",
+        "end_date":   min(f"{ano_fim}-12-31", __import__("datetime").date.today().isoformat()),
         "daily":      "precipitation_sum,temperature_2m_max,temperature_2m_min",
         "timezone":   "America/Sao_Paulo",
     }

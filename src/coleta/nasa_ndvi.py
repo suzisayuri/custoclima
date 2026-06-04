@@ -76,7 +76,7 @@ def obter_token() -> str:
     return r.json()["token"]
 
 
-def submeter_tarefa(token: str, ano_inicio: int = 2015, ano_fim: int = 2024) -> str:
+def submeter_tarefa(token: str, ano_inicio: int = 2015, ano_fim: int = 2025) -> str:
     headers = {"Authorization": f"Bearer {token}"}
     tarefa = {
         "task_type": "point",

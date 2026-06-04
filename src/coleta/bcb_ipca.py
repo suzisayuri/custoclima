@@ -124,7 +124,7 @@ def calcular_variacao_mensal(df: pd.DataFrame) -> pd.DataFrame:
 def processar_serie(
     serie: dict,
     ano_inicio: int = 2015,
-    ano_fim: int = 2024,
+    ano_fim: int = 2026,
 ) -> pd.DataFrame:
     """
     Coleta e processa uma série. Retorna DataFrame com colunas compatíveis com o ETL.

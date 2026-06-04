@@ -44,7 +44,7 @@ def salvar(df: pd.DataFrame, nome: str) -> None:
 
 # ── Dimensão Tempo ────────────────────────────────────────────────────────────
 
-def criar_dim_tempo(ano_inicio: int = 2015, ano_fim: int = 2024) -> pd.DataFrame:
+def criar_dim_tempo(ano_inicio: int = 2015, ano_fim: int = 2026) -> pd.DataFrame:
     periodos = pd.date_range(
         start=f"{ano_inicio}-01-01",
         end=f"{ano_fim}-12-31",

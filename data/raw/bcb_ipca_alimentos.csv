@@ -119,6 +119,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,2.5545
 202411,2024,11,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,4.3004
 202412,2024,12,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,2.7233
+202501,2025,1,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,1.9327
+202502,2025,2,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,2.5491
+202503,2025,3,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,-1.1854
+202504,2025,4,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,2.3417
+202505,2025,5,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,-0.7544
+202506,2025,6,2265,IPCA - Variacao mensal,%,acucares,IPCA - Acucares e derivados,-0.0895
 201501,2015,1,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,1.024
 201502,2015,2,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,1.3225
 201503,2015,3,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,1.6291
@@ -239,6 +245,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,0.3257
 202411,2024,11,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,2.0188
 202412,2024,12,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,0.4238
+202501,2025,1,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,4.803
+202502,2025,2,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,0.3224
+202503,2025,3,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,0.6914
+202504,2025,4,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,3.0231
+202505,2025,5,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,0.0234
+202506,2025,6,2265,IPCA - Variacao mensal,%,aves_ovos,IPCA - Aves e ovos,-2.3872
 201501,2015,1,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,7.79
 201502,2015,2,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,-0.0642
 201503,2015,3,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,3.2267
@@ -359,6 +371,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,2.5919
 202411,2024,11,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,2.6863
 202412,2024,12,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,3.9043
+202501,2025,1,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,3.1313
+202502,2025,2,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,1.5785
+202503,2025,3,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,-1.8899
+202504,2025,4,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,1.835
+202505,2025,5,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,-0.0672
+202506,2025,6,2265,IPCA - Variacao mensal,%,carnes,IPCA - Carnes e peixes,-3.841
 201501,2015,1,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",6.326
 201502,2015,2,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",1.7331
 201503,2015,3,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",2.3563
@@ -479,6 +497,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",4.0347
 202411,2024,11,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",1.7588
 202412,2024,12,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",0.3381
+202501,2025,1,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",0.2413
+202502,2025,2,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",0.2945
+202503,2025,3,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",3.6132
+202504,2025,4,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",2.7031
+202505,2025,5,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",-0.2936
+202506,2025,6,2265,IPCA - Variacao mensal,%,cereais,"IPCA - Cereais, leguminosas e oleag",-0.1933
 201501,2015,1,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,7.4765
 201502,2015,2,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,0.59
 201503,2015,3,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,-0.6633
@@ -599,6 +623,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,3.3347
 202411,2024,11,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,4.6421
 202412,2024,12,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,0.6665
+202501,2025,1,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,3.3338
+202502,2025,2,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,-2.3226
+202503,2025,3,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,1.991
+202504,2025,4,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,1.7731
+202505,2025,5,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,-1.1415
+202506,2025,6,2265,IPCA - Variacao mensal,%,frutas,IPCA - Frutas,-1.8981
 201501,2015,1,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,3.0672
 201502,2015,2,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,1.1211
 201503,2015,3,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,4.2295
@@ -719,6 +749,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,4.1272
 202411,2024,11,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,3.5254
 202412,2024,12,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,1.479
+202501,2025,1,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,3.9583
+202502,2025,2,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,1.4591
+202503,2025,3,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,2.364
+202504,2025,4,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,2.6201
+202505,2025,5,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,-2.4152
+202506,2025,6,2265,IPCA - Variacao mensal,%,horticultura,IPCA - Horticultura,0.9087
 201501,2015,1,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,1.24
 201502,2015,2,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,1.22
 201503,2015,3,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,1.32
@@ -839,6 +875,22 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.56
 202411,2024,11,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.39
 202412,2024,12,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.52
+202501,2025,1,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.16
+202502,2025,2,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,1.31
+202503,2025,3,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.56
+202504,2025,4,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.43
+202505,2025,5,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.26
+202506,2025,6,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.24
+202507,2025,7,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.26
+202508,2025,8,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,-0.11
+202509,2025,9,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.48
+202510,2025,10,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.09
+202511,2025,11,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.18
+202512,2025,12,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.33
+202601,2026,1,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.33
+202602,2026,2,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.7
+202603,2026,3,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.88
+202604,2026,4,2265,IPCA - Variacao mensal,%,ipca_geral,IPCA - Geral,0.67
 201501,2015,1,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,6.8057
 201502,2015,2,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,1.2294
 201503,2015,3,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,0.439
@@ -958,6 +1010,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,4.0879
 202411,2024,11,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,1.3022
 202412,2024,12,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,1.1457
+202501,2025,1,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,3.273
+202502,2025,2,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,1.1847
+202503,2025,3,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,2.4917
+202504,2025,4,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,1.1423
+202505,2025,5,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,-2.5033
+202506,2025,6,2265,IPCA - Variacao mensal,%,leite,IPCA - Leite e derivados,-0.9717
 201501,2015,1,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,3.2935
 201502,2015,2,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,4.3558
 201503,2015,3,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,-0.1519
@@ -1078,6 +1136,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,4.0126
 202411,2024,11,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,3.004
 202412,2024,12,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,4.0065
+202501,2025,1,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,2.7198
+202502,2025,2,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,2.2819
+202503,2025,3,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,-1.8672
+202504,2025,4,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,3.2256
+202505,2025,5,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,-1.8265
+202506,2025,6,2265,IPCA - Variacao mensal,%,oleos,IPCA - Oleos e gorduras,-1.2481
 201501,2015,1,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,7.262
 201502,2015,2,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,0.5939
 201503,2015,3,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,-1.0599
@@ -1197,6 +1261,12 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,4.1816
 202411,2024,11,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,4.3879
 202412,2024,12,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,0.1266
+202501,2025,1,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,1.7277
+202502,2025,2,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,2.152
+202503,2025,3,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,1.3402
+202504,2025,4,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,-0.8701
+202505,2025,5,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,-0.1946
+202506,2025,6,2265,IPCA - Variacao mensal,%,panificados,IPCA - Panificados,-0.1266
 201501,2015,1,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",2.1354
 201502,2015,2,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",-0.244
 201503,2015,3,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",-0.4503
@@ -1317,3 +1387,9 @@ periodo,ano,mes,id_variavel,variavel,unidade,id_categoria,categoria,valor
 202410,2024,10,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",3.7237
 202411,2024,11,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",0.3363
 202412,2024,12,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",1.2306
+202501,2025,1,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",-0.0877
+202502,2025,2,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",-0.1286
+202503,2025,3,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",2.9974
+202504,2025,4,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",3.159
+202505,2025,5,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",0.0851
+202506,2025,6,2265,IPCA - Variacao mensal,%,tuberculos,"IPCA - Tuberculos, raizes e legumes",1.0362

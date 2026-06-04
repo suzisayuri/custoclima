@@ -1,27 +1,26 @@
-periodo_referencia,oni_atual,fase_enso,regiao,produto,horizonte_meses,direcao_preco,intensidade,r_oni_precip,r_precip_preco,confianca,pct_confianca,mensagem_alerta
-202603,-0.14,Neutro,Nordeste,IPCA - Acucares e derivados,6,ESTAVEL,sem anomalia,-0.376,0.182,media,50,Sem risco relevante para acucares e derivados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Acucares e derivados,8,ESTAVEL,sem anomalia,-0.376,-0.298,media,50,Sem risco relevante para acucares e derivados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Acucares e derivados,9,ESTAVEL,sem anomalia,-0.376,-0.358,alta,50,Sem risco relevante para acucares e derivados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Aves e ovos,8,ESTAVEL,sem anomalia,-0.376,-0.191,media,50,Sem risco relevante para aves e ovos no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Aves e ovos,9,ESTAVEL,sem anomalia,-0.376,-0.333,alta,50,Sem risco relevante para aves e ovos no momento.
-202603,-0.14,Neutro,Sul,IPCA - Aves e ovos,3,ESTAVEL,sem anomalia,0.248,0.219,media,50,Sem risco relevante para aves e ovos no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Carnes e peixes,8,ESTAVEL,sem anomalia,-0.376,-0.236,media,50,Sem risco relevante para carnes e peixes no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Carnes e peixes,9,ESTAVEL,sem anomalia,-0.376,-0.339,alta,50,Sem risco relevante para carnes e peixes no momento.
-202603,-0.14,Neutro,Nordeste,"IPCA - Cereais, leguminosas e oleag",9,ESTAVEL,sem anomalia,-0.376,-0.218,media,50,"Sem risco relevante para cereais, leguminosas e oleag no momento."
-202603,-0.14,Neutro,Nordeste,IPCA - Frutas,8,ESTAVEL,sem anomalia,-0.376,-0.25,media,50,Sem risco relevante para frutas no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Frutas,9,ESTAVEL,sem anomalia,-0.376,-0.318,alta,50,Sem risco relevante para frutas no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Horticultura,8,ESTAVEL,sem anomalia,-0.376,-0.306,alta,50,Sem risco relevante para horticultura no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Horticultura,9,ESTAVEL,sem anomalia,-0.376,-0.325,alta,50,Sem risco relevante para horticultura no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Geral,7,ESTAVEL,sem anomalia,-0.376,-0.198,media,50,Sem risco relevante para geral no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Geral,8,ESTAVEL,sem anomalia,-0.376,-0.315,alta,50,Sem risco relevante para geral no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Geral,9,ESTAVEL,sem anomalia,-0.376,-0.309,alta,50,Sem risco relevante para geral no momento.
-202603,-0.14,Neutro,Sul,IPCA - Geral,0,ESTAVEL,sem anomalia,0.248,0.21,media,50,Sem risco relevante para geral no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Leite e derivados,7,ESTAVEL,sem anomalia,-0.376,-0.27,media,50,Sem risco relevante para leite e derivados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Leite e derivados,8,ESTAVEL,sem anomalia,-0.376,-0.345,alta,50,Sem risco relevante para leite e derivados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Leite e derivados,9,ESTAVEL,sem anomalia,-0.376,-0.355,alta,50,Sem risco relevante para leite e derivados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Oleos e gorduras,6,ESTAVEL,sem anomalia,-0.376,0.188,media,50,Sem risco relevante para oleos e gorduras no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Oleos e gorduras,8,ESTAVEL,sem anomalia,-0.376,-0.279,media,50,Sem risco relevante para oleos e gorduras no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Oleos e gorduras,9,ESTAVEL,sem anomalia,-0.376,-0.351,alta,50,Sem risco relevante para oleos e gorduras no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Panificados,7,ESTAVEL,sem anomalia,-0.376,-0.242,media,50,Sem risco relevante para panificados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Panificados,8,ESTAVEL,sem anomalia,-0.376,-0.384,alta,50,Sem risco relevante para panificados no momento.
-202603,-0.14,Neutro,Nordeste,IPCA - Panificados,9,ESTAVEL,sem anomalia,-0.376,-0.344,alta,50,Sem risco relevante para panificados no momento.
+periodo_referencia,oni_atual,fase_enso,regiao,produto,horizonte_meses,direcao_preco,intensidade,r_oni_precip,r_precip_preco,confianca,pct_confianca,mensagem_alerta,mensagem_varejista,mensagem_restaurante
+202603,-0.14,Neutro,Nordeste,IPCA - Acucares e derivados,8,ESTAVEL,sem anomalia,-0.353,-0.303,alta,50,Sem risco relevante para acucares e derivados no momento.,Sem risco relevante para acucares e derivados no momento.,Sem risco relevante para acucares e derivados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Acucares e derivados,9,ESTAVEL,sem anomalia,-0.353,-0.355,alta,50,Sem risco relevante para acucares e derivados no momento.,Sem risco relevante para acucares e derivados no momento.,Sem risco relevante para acucares e derivados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Aves e ovos,8,ESTAVEL,sem anomalia,-0.353,-0.192,media,50,Sem risco relevante para aves e ovos no momento.,Sem risco relevante para aves e ovos no momento.,Sem risco relevante para aves e ovos no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Aves e ovos,9,ESTAVEL,sem anomalia,-0.353,-0.339,alta,50,Sem risco relevante para aves e ovos no momento.,Sem risco relevante para aves e ovos no momento.,Sem risco relevante para aves e ovos no momento.
+202603,-0.14,Neutro,Sul,IPCA - Aves e ovos,3,ESTAVEL,sem anomalia,0.246,0.22,media,50,Sem risco relevante para aves e ovos no momento.,Sem risco relevante para aves e ovos no momento.,Sem risco relevante para aves e ovos no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Carnes e peixes,8,ESTAVEL,sem anomalia,-0.353,-0.241,media,50,Sem risco relevante para carnes e peixes no momento.,Sem risco relevante para carnes e peixes no momento.,Sem risco relevante para carnes e peixes no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Carnes e peixes,9,ESTAVEL,sem anomalia,-0.353,-0.34,alta,50,Sem risco relevante para carnes e peixes no momento.,Sem risco relevante para carnes e peixes no momento.,Sem risco relevante para carnes e peixes no momento.
+202603,-0.14,Neutro,Nordeste,"IPCA - Cereais, leguminosas e oleag",9,ESTAVEL,sem anomalia,-0.353,-0.216,media,50,"Sem risco relevante para cereais, leguminosas e oleag no momento.","Sem risco relevante para cereais, leguminosas e oleag no momento.","Sem risco relevante para cereais, leguminosas e oleag no momento."
+202603,-0.14,Neutro,Nordeste,IPCA - Frutas,8,ESTAVEL,sem anomalia,-0.353,-0.243,media,50,Sem risco relevante para frutas no momento.,Sem risco relevante para frutas no momento.,Sem risco relevante para frutas no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Frutas,9,ESTAVEL,sem anomalia,-0.353,-0.318,alta,50,Sem risco relevante para frutas no momento.,Sem risco relevante para frutas no momento.,Sem risco relevante para frutas no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Horticultura,8,ESTAVEL,sem anomalia,-0.353,-0.309,alta,50,Sem risco relevante para horticultura no momento.,Sem risco relevante para horticultura no momento.,Sem risco relevante para horticultura no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Horticultura,9,ESTAVEL,sem anomalia,-0.353,-0.332,alta,50,Sem risco relevante para horticultura no momento.,Sem risco relevante para horticultura no momento.,Sem risco relevante para horticultura no momento.
+202603,-0.14,Neutro,Sul,IPCA - Horticultura,1,ESTAVEL,sem anomalia,0.246,0.182,media,50,Sem risco relevante para horticultura no momento.,Sem risco relevante para horticultura no momento.,Sem risco relevante para horticultura no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Geral,8,ESTAVEL,sem anomalia,-0.353,-0.308,alta,50,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Geral,9,ESTAVEL,sem anomalia,-0.353,-0.323,alta,50,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.
+202603,-0.14,Neutro,Sul,IPCA - Geral,0,ESTAVEL,sem anomalia,0.246,0.187,media,50,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.
+202603,-0.14,Neutro,Sul,IPCA - Geral,1,ESTAVEL,sem anomalia,0.246,0.171,media,50,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.,Sem risco relevante para geral no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Leite e derivados,7,ESTAVEL,sem anomalia,-0.353,-0.268,media,50,Sem risco relevante para leite e derivados no momento.,Sem risco relevante para leite e derivados no momento.,Sem risco relevante para leite e derivados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Leite e derivados,8,ESTAVEL,sem anomalia,-0.353,-0.347,alta,50,Sem risco relevante para leite e derivados no momento.,Sem risco relevante para leite e derivados no momento.,Sem risco relevante para leite e derivados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Leite e derivados,9,ESTAVEL,sem anomalia,-0.353,-0.366,alta,50,Sem risco relevante para leite e derivados no momento.,Sem risco relevante para leite e derivados no momento.,Sem risco relevante para leite e derivados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Oleos e gorduras,8,ESTAVEL,sem anomalia,-0.353,-0.286,media,50,Sem risco relevante para oleos e gorduras no momento.,Sem risco relevante para oleos e gorduras no momento.,Sem risco relevante para oleos e gorduras no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Oleos e gorduras,9,ESTAVEL,sem anomalia,-0.353,-0.348,alta,50,Sem risco relevante para oleos e gorduras no momento.,Sem risco relevante para oleos e gorduras no momento.,Sem risco relevante para oleos e gorduras no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Panificados,7,ESTAVEL,sem anomalia,-0.353,-0.241,media,50,Sem risco relevante para panificados no momento.,Sem risco relevante para panificados no momento.,Sem risco relevante para panificados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Panificados,8,ESTAVEL,sem anomalia,-0.353,-0.385,alta,50,Sem risco relevante para panificados no momento.,Sem risco relevante para panificados no momento.,Sem risco relevante para panificados no momento.
+202603,-0.14,Neutro,Nordeste,IPCA - Panificados,9,ESTAVEL,sem anomalia,-0.353,-0.349,alta,50,Sem risco relevante para panificados no momento.,Sem risco relevante para panificados no momento.,Sem risco relevante para panificados no momento.

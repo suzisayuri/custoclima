@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from utils.dados import carregar_precos, carregar_backtesting, carregar_oni
 
-st.set_page_config(page_title="Histórico · AgroClima", page_icon="🔍", layout="wide")
+st.set_page_config(page_title="Histórico · CustoClima", page_icon="🔍", layout="wide")
 
 st.title("🔍 Histórico de Preços e Validação do Modelo")
 st.markdown(
@@ -152,10 +152,11 @@ eventos = [
     ("2023-2024", "El Niño moderado + enchentes históricas RS (mai/2024)", "🟠", "202307", "202406"),
 ]
 
+periodo_col = df_bt["periodo_previsao"].astype(str)
 for periodo, descricao, emoji, ini, fim in eventos:
     sub = df_bt[
-        (df_bt["periodo_previsao"] >= ini) &
-        (df_bt["periodo_previsao"] <= fim)
+        (periodo_col >= ini) &
+        (periodo_col <= fim)
     ]
     acc = sub["acerto"].mean() * 100 if len(sub) > 0 else 0
     cor_acc = "#27ae60" if acc >= 60 else "#e67e22" if acc >= 50 else "#e74c3c"

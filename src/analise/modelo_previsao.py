@@ -1,21 +1,22 @@
 """
-Modelo de previsão de impacto no preço de alimentos baseado no ENSO
+CustoClima — Modelo de previsão de impacto no preço de alimentos baseado no ENSO
 Entradas: data/raw/noaa_enso_oni.csv
           data/processed/fato_clima.csv
           data/processed/correlacao_resultados.csv
 Saídas  : data/processed/previsao_alertas.csv
           plots/previsao_timeline.png
+          MySQL: tabela previsao_alertas (se .env configurado)
 
 Como funciona o pipeline de previsão:
   1. ONI atual → classifica fase ENSO (El Niño / La Niña / Neutro)
   2. Fase ENSO → prevê anomalia de precipitação por região (1-3 meses)
   3. Anomalia de precipitação → prevê impacto no preço por produto (lag 2-3 meses)
-  4. Resultado: alerta com horizonte de 3-6 meses e estimativa de variação de preço
+  4. Resultado: alerta com horizonte de 3-6 meses para varejistas e restaurantes
 
 Por que isso é útil:
   O ENSO é previsível com 6-9 meses de antecedência pelos modelos climáticos.
-  Com esse pipeline, supermercados e consumidores podem se preparar meses antes
-  de uma escassez ou alta de preço provocada por seca ou enchente.
+  Com esse pipeline, varejistas e restaurantes podem antecipar contratos,
+  reforçar estoque ou ajustar cardápio com 2 a 6 meses de antecedência.
 
 Uso:
   python src/analise/modelo_previsao.py
@@ -179,36 +180,52 @@ def gerar_alertas(
         # Nome curto do produto (remove prefixo "IPCA - ")
         produto_curto = produto.replace("IPCA - ", "").lower()
 
-        # Monta mensagem no formato aprovado
+        # Monta mensagens por público-alvo
+        horizonte_str = f"{horizonte_total - 1}-{horizonte_total} meses"
+        confianca_str = f"Confianca: {pct_confianca}%."
+
         if direcao == "ALTA":
-            mensagem = (
+            mensagem_varejista = (
                 f"Risco {nivel_risco} de alta em {produto_curto} "
-                f"nos proximos {horizonte_total - 1}-{horizonte_total} meses. "
-                f"Confianca: {pct_confianca}%."
+                f"nos proximos {horizonte_str}. "
+                f"Considere antecipar contratos com fornecedores. {confianca_str}"
+            )
+            mensagem_restaurante = (
+                f"Risco {nivel_risco} de alta em {produto_curto} "
+                f"nos proximos {horizonte_str}. "
+                f"Avalie substituicoes no cardapio ou compra antecipada. {confianca_str}"
             )
         elif direcao == "QUEDA":
-            mensagem = (
+            mensagem_varejista = (
                 f"Risco {nivel_risco} de queda em {produto_curto} "
-                f"nos proximos {horizonte_total - 1}-{horizonte_total} meses. "
-                f"Confianca: {pct_confianca}%."
+                f"nos proximos {horizonte_str}. "
+                f"Oportunidade para reforcar o estoque. {confianca_str}"
+            )
+            mensagem_restaurante = (
+                f"Risco {nivel_risco} de queda em {produto_curto} "
+                f"nos proximos {horizonte_str}. "
+                f"Considere ampliar o cardapio com este item. {confianca_str}"
             )
         else:
-            mensagem = f"Sem risco relevante para {produto_curto} no momento."
+            mensagem_varejista   = f"Sem risco relevante para {produto_curto} no momento."
+            mensagem_restaurante = mensagem_varejista
 
         alertas.append({
-            "periodo_referencia": periodo_ref,
-            "oni_atual":          round(oni_recente, 2),
-            "fase_enso":          fase,
-            "regiao":             regiao,
-            "produto":            produto,
-            "horizonte_meses":    horizonte_total,
-            "direcao_preco":      direcao,
-            "intensidade":        intensidade,
-            "r_oni_precip":       round(r_oni_prec, 3),
-            "r_precip_preco":     round(r_preco, 3),
-            "confianca":          confianca,
-            "pct_confianca":      pct_confianca,
-            "mensagem_alerta":    mensagem,
+            "periodo_referencia":  periodo_ref,
+            "oni_atual":           round(oni_recente, 2),
+            "fase_enso":           fase,
+            "regiao":              regiao,
+            "produto":             produto,
+            "horizonte_meses":     horizonte_total,
+            "direcao_preco":       direcao,
+            "intensidade":         intensidade,
+            "r_oni_precip":        round(r_oni_prec, 3),
+            "r_precip_preco":      round(r_preco, 3),
+            "confianca":           confianca,
+            "pct_confianca":       pct_confianca,
+            "mensagem_alerta":     mensagem_varejista,   # coluna principal (varejo)
+            "mensagem_varejista":  mensagem_varejista,
+            "mensagem_restaurante": mensagem_restaurante,
         })
 
     return pd.DataFrame(alertas)
@@ -292,9 +309,32 @@ def plotar_alertas(df_alertas: pd.DataFrame) -> None:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def recarregar_mysql(df: pd.DataFrame) -> None:
+    """Substitui a tabela previsao_alertas no MySQL pelos dados atuais."""
+    try:
+        import os
+        from dotenv import load_dotenv
+        from sqlalchemy import create_engine
+        load_dotenv()
+
+        host   = os.getenv("MYSQL_HOST", "localhost")
+        port   = os.getenv("MYSQL_PORT", "3306")
+        banco  = os.getenv("MYSQL_DATABASE", os.getenv("MYSQL_DB", "agroclima"))
+        user   = os.getenv("MYSQL_USER", "root")
+        senha  = os.getenv("MYSQL_PASSWORD", "")
+
+        url = f"mysql+pymysql://{user}:{senha}@{host}:{port}/{banco}?charset=utf8mb4"
+        engine = create_engine(url, echo=False)
+
+        df.to_sql("previsao_alertas", engine, if_exists="replace", index=False)
+        logger.info(f"MySQL: tabela previsao_alertas recarregada ({len(df)} linhas)")
+    except Exception as exc:
+        logger.warning(f"MySQL nao disponivel — apenas CSV salvo. Detalhe: {exc}")
+
+
 def main():
     logger.info("=" * 55)
-    logger.info("  AgroClima Brasil — Modelo de Previsao ENSO")
+    logger.info("  CustoClima — Modelo de Previsao ENSO")
     logger.info("=" * 55)
 
     # Verificação de arquivos
@@ -327,12 +367,15 @@ def main():
         f" | Sul: {len(df_corr_oni[(df_corr_oni['regiao']=='Sul') & df_corr_oni['significativo']])} lags significativos"
     )
 
+    df_corr_oni.to_csv(PROC_DIR / "correlacao_oni_precip.csv", index=False, encoding="utf-8")
+
     # Etapa 2: gera alertas
     logger.info("Gerando alertas de previsao...")
     df_alertas = gerar_alertas(df_oni, df_corr_oni, df_corr)
 
     saida = PROC_DIR / "previsao_alertas.csv"
     df_alertas.to_csv(saida, index=False, encoding="utf-8")
+    recarregar_mysql(df_alertas)
 
     # Etapa 3: gráficos
     plotar_oni_historico(df_oni)
@@ -343,22 +386,24 @@ def main():
     alertas_alta = df_alertas[df_alertas["direcao_preco"] == "ALTA"]
 
     print(f"\n{'='*65}")
-    print("  Resumo da Previsao AgroClima")
+    print("  Resumo da Previsao CustoClima")
     print(f"{'='*65}")
     print(f"  Periodo de referencia : {ultimo_oni['periodo']}")
     print(f"  ONI atual             : {ultimo_oni['oni']:+.2f} C ({ultimo_oni['fase_enso']})")
     print(f"  Impacto esperado      : {ultimo_oni['impacto_brasil']}")
 
     if not alertas_alta.empty:
-        print(f"\n  Alertas gerados:")
+        print(f"\n  Alertas para varejistas:")
         for _, row in alertas_alta.sort_values("r_precip_preco", key=abs, ascending=False).iterrows():
-            print(f"    >> {row['mensagem_alerta']}")
+            print(f"    [VAREJO]      {row['mensagem_varejista']}")
+            print(f"    [RESTAURANTE] {row['mensagem_restaurante']}")
     else:
         print("\n  Nenhum alerta critico no momento (fase neutra).")
-        # Mostra exemplo de como seria um alerta em El Nino forte
         print("\n  Exemplo de alerta em El Nino forte:")
-        print("    >> Risco alto de alta em carnes e peixes nos proximos 2-3 meses. Confianca: 67%.")
-        print("    >> Risco alto de alta em panificados nos proximos 2-3 meses. Confianca: 67%.")
+        print("    [VAREJO]      Risco alto de alta em carnes nos proximos 2-3 meses.")
+        print("                  Considere antecipar contratos com fornecedores. Confianca: 67%.")
+        print("    [RESTAURANTE] Risco alto de alta em carnes nos proximos 2-3 meses.")
+        print("                  Avalie substituicoes no cardapio ou compra antecipada. Confianca: 67%.")
 
     print(f"\n  Graficos salvos em plots/")
     print(f"  Alertas salvos em: {saida}")

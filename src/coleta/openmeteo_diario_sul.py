@@ -68,13 +68,13 @@ LIMIAR_MODERADO = 50   # enchente moderada
 LIMIAR_SEVERO   = 80   # enchente grave / estado de emergência
 
 
-def coletar_diario(localidade: dict, ano_inicio: int = 2015, ano_fim: int = 2024) -> pd.DataFrame:
+def coletar_diario(localidade: dict, ano_inicio: int = 2015, ano_fim: int = 2026) -> pd.DataFrame:
     """Coleta precipitação diária do Open-Meteo para uma localidade."""
     params = {
         "latitude":   localidade["lat"],
         "longitude":  localidade["lon"],
         "start_date": f"{ano_inicio}-01-01",
-        "end_date":   f"{ano_fim}-12-31",
+        "end_date":   min(f"{ano_fim}-12-31", __import__("datetime").date.today().isoformat()),
         "daily":      "precipitation_sum,rain_sum",
         "timezone":   "America/Sao_Paulo",
     }
