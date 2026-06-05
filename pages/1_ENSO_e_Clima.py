@@ -7,7 +7,9 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import datetime
-from utils.dados import carregar_oni, carregar_precipitacao, carregar_ndvi, carregar_corr_oni_precip, buscar_previsao_enso_noaa
+from utils.dados import (carregar_oni, carregar_precipitacao, carregar_ndvi,
+                         carregar_corr_oni_precip, buscar_previsao_enso_noaa,
+                         buscar_status_cptec)
 
 st.set_page_config(page_title="ENSO & Clima · CustoClima", page_icon="🌧️", layout="wide")
 
@@ -75,13 +77,63 @@ st.divider()
 st.subheader("📅 Projeção Climática — Próximos 6 Meses")
 
 st.warning(
-    "⚠️ **Atenção: esta projeção não é uma previsão meteorológica oficial.** "
-    "É baseada em padrões históricos de 2015–2025. "
-    "O modelo acerta em **~67% dos casos apenas durante El Niño forte**. "
-    "Em fase neutra ou La Niña fraca, a confiabilidade cai para ~50% (próximo ao acaso). "
-    "Use como orientação de planejamento, nunca como certeza. "
-    "Para previsões oficiais, consulte **INMET** e **CPTEC/INPE**."
+    "⚠️ Projeção baseada em padrões históricos (2015–2026) — não substitui previsão oficial. "
+    "Acurácia: ~67% em El Niño forte · ~50% em fase neutra. "
+    "Use como orientação de planejamento, não como certeza."
 )
+
+# ── Fontes oficiais ───────────────────────────────────────────────────────────
+st.markdown("**🌐 Fontes oficiais consultadas agora:**")
+noaa_d  = buscar_previsao_enso_noaa()
+cptec_d = buscar_status_cptec()
+
+col_noaa, col_cptec, col_inmet = st.columns(3)
+
+with col_noaa:
+    if noaa_d["ok"]:
+        prob = f"<br><span style='font-size:0.78rem;color:#888'>{noaa_d['probabilidade']}</span>" if noaa_d.get("probabilidade") else ""
+        st.markdown(f"""
+        <a href='{noaa_d['fonte_url']}' target='_blank' style='text-decoration:none'>
+        <div style='background:{noaa_d['cor']}10; border:1px solid {noaa_d['cor']}40;
+                    border-radius:10px; padding:14px; height:130px'>
+            <div style='font-size:0.75rem; color:#888; margin-bottom:4px'>🇺🇸 NOAA (EUA)</div>
+            <div style='font-weight:700; color:{noaa_d['cor']}'>{noaa_d['icone']} {noaa_d['fase']}</div>
+            <div style='font-size:0.82rem; color:#555; margin-top:4px; line-height:1.3'>{noaa_d['impacto']}{prob}</div>
+        </div></a>
+        """, unsafe_allow_html=True)
+    else:
+        st.markdown("<div style='border:1px solid #eee;border-radius:10px;padding:14px;color:#aaa'>NOAA indisponível</div>", unsafe_allow_html=True)
+
+with col_cptec:
+    if cptec_d["ok"]:
+        resumo_curto = cptec_d.get("resumo", "")[:130] + "…" if cptec_d.get("resumo") else ""
+        st.markdown(f"""
+        <a href='{cptec_d['url']}' target='_blank' style='text-decoration:none'>
+        <div style='background:{cptec_d['cor']}10; border:1px solid {cptec_d['cor']}40;
+                    border-radius:10px; padding:14px; height:130px; overflow:hidden'>
+            <div style='font-size:0.75rem; color:#888; margin-bottom:4px'>🇧🇷 CPTEC/INPE (Brasil)</div>
+            <div style='font-weight:700; color:{cptec_d['cor']}'>{cptec_d['icone']} {cptec_d['fase']}</div>
+            <div style='font-size:0.78rem; color:#555; margin-top:4px; line-height:1.3'>{resumo_curto}</div>
+        </div></a>
+        """, unsafe_allow_html=True)
+    else:
+        st.markdown("<div style='border:1px solid #eee;border-radius:10px;padding:14px;color:#aaa'>CPTEC indisponível</div>", unsafe_allow_html=True)
+
+with col_inmet:
+    st.markdown(f"""
+    <a href='https://portal.inmet.gov.br/monitoramento' target='_blank' style='text-decoration:none'>
+    <div style='background:#8e44ad10; border:1px solid #8e44ad40;
+                border-radius:10px; padding:14px; height:130px'>
+        <div style='font-size:0.75rem; color:#888; margin-bottom:4px'>🇧🇷 INMET (Brasil)</div>
+        <div style='font-weight:700; color:#8e44ad'>🌡️ Monitoramento Climático</div>
+        <div style='font-size:0.82rem; color:#555; margin-top:4px; line-height:1.3'>
+            Temperaturas, chuvas e alertas meteorológicos por estado.<br>
+            <span style='font-size:0.75rem;color:#aaa'>Clique para acessar →</span>
+        </div>
+    </div></a>
+    """, unsafe_allow_html=True)
+
+st.markdown("<br>", unsafe_allow_html=True)
 
 ultimo_oni = df_oni.sort_values("periodo").iloc[-1]
 oni_medido = float(ultimo_oni["oni"])

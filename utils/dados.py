@@ -64,6 +64,39 @@ def carregar_corr_oni_precip() -> pd.DataFrame:
     return pd.read_csv(PROC / "correlacao_oni_precip.csv")
 
 
+@st.cache_data(ttl=3600 * 12)
+def buscar_status_cptec() -> dict:
+    """Busca o status atual do ENOS no CPTEC/INPE (fonte brasileira)."""
+    import re, requests
+    try:
+        r = requests.get("http://enos.cptec.inpe.br/", timeout=12,
+                         headers={"User-Agent": "Mozilla/5.0"})
+        r.encoding = "latin-1"
+        text = r.text
+
+        m_status = re.search(r"CONDI[^:]+ENOS:\s*([A-ZÁÉÍÓÚÃÕÜÂÊÎÔÛÇ ]+)", text, re.IGNORECASE)
+        status_raw = m_status.group(1).strip().title() if m_status else ""
+
+        m_resumo = re.search(r"O monitoramento[^<]{30,400}", text)
+        resumo = m_resumo.group(0).strip()[:220] + "…" if m_resumo else ""
+
+        mapa = {
+            "Neutralidade": ("Neutro", "#27ae60", "🟢", 0.0),
+            "El Niño":      ("El Niño ativo", "#e74c3c", "🔴", 0.9),
+            "La Niña":      ("La Niña ativa", "#2980b9", "🔵", -0.9),
+        }
+        for chave, (fase, cor, icone, oni) in mapa.items():
+            if chave.lower() in status_raw.lower():
+                return {"ok": True, "status_raw": status_raw, "fase": fase,
+                        "cor": cor, "icone": icone, "resumo": resumo,
+                        "url": "http://enos.cptec.inpe.br/"}
+        return {"ok": True, "status_raw": status_raw, "fase": status_raw,
+                "cor": "#95a5a6", "icone": "⚪", "resumo": resumo,
+                "url": "http://enos.cptec.inpe.br/"}
+    except Exception as exc:
+        return {"ok": False, "erro": str(exc)}
+
+
 @st.cache_data(ttl=3600 * 12)  # atualiza a cada 12 horas
 def buscar_previsao_enso_noaa() -> dict:
     """Busca o status oficial do ENSO no NOAA CPC e retorna em linguagem simples."""
