@@ -94,7 +94,7 @@ with col_noaa:
         st.markdown(f"""
         <a href='{noaa_d['fonte_url']}' target='_blank' style='text-decoration:none'>
         <div style='background:{noaa_d['cor']}10; border:1px solid {noaa_d['cor']}40;
-                    border-radius:10px; padding:14px; height:130px'>
+                    border-radius:10px; padding:14px; min-height:100px'>
             <div style='font-size:0.75rem; color:#888; margin-bottom:4px'>🇺🇸 NOAA (EUA)</div>
             <div style='font-weight:700; color:{noaa_d['cor']}'>{noaa_d['icone']} {noaa_d['fase']}</div>
             <div style='font-size:0.82rem; color:#555; margin-top:4px; line-height:1.3'>{noaa_d['impacto']}{prob}</div>
@@ -109,7 +109,7 @@ with col_cptec:
         st.markdown(f"""
         <a href='{cptec_d['url']}' target='_blank' style='text-decoration:none'>
         <div style='background:{cptec_d['cor']}10; border:1px solid {cptec_d['cor']}40;
-                    border-radius:10px; padding:14px; height:130px; overflow:hidden'>
+                    border-radius:10px; padding:14px; min-height:100px'>
             <div style='font-size:0.75rem; color:#888; margin-bottom:4px'>🇧🇷 CPTEC/INPE (Brasil)</div>
             <div style='font-weight:700; color:{cptec_d['cor']}'>{cptec_d['icone']} {cptec_d['fase']}</div>
             <div style='font-size:0.78rem; color:#555; margin-top:4px; line-height:1.3'>{resumo_curto}</div>
@@ -122,7 +122,7 @@ with col_inmet:
     st.markdown(f"""
     <a href='https://portal.inmet.gov.br/monitoramento' target='_blank' style='text-decoration:none'>
     <div style='background:#8e44ad10; border:1px solid #8e44ad40;
-                border-radius:10px; padding:14px; height:130px'>
+                border-radius:10px; padding:14px; min-height:100px'>
         <div style='font-size:0.75rem; color:#888; margin-bottom:4px'>🇧🇷 INMET (Brasil)</div>
         <div style='font-weight:700; color:#8e44ad'>🌡️ Monitoramento Climático</div>
         <div style='font-size:0.82rem; color:#555; margin-top:4px; line-height:1.3'>
