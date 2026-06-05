@@ -32,7 +32,7 @@ st.subheader("🧭 Como usar o site — passo a passo")
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.markdown("""
-    <div style='background:#27ae6010; border:1px solid #27ae6040; border-radius:10px; padding:16px; height:180px'>
+    <div style='background:#27ae6010; border:1px solid #27ae6040; border-radius:10px; padding:16px; min-height:160px'>
         <div style='font-size:1.5rem'>1️⃣</div>
         <div style='font-weight:700; margin:8px 0'>Alertas de Compra</div>
         <div style='font-size:0.85rem; color:#555'>
@@ -43,7 +43,7 @@ with col1:
     """, unsafe_allow_html=True)
 with col2:
     st.markdown("""
-    <div style='background:#3498db10; border:1px solid #3498db40; border-radius:10px; padding:16px; height:180px'>
+    <div style='background:#3498db10; border:1px solid #3498db40; border-radius:10px; padding:16px; min-height:160px'>
         <div style='font-size:1.5rem'>2️⃣</div>
         <div style='font-weight:700; margin:8px 0'>Previsão dos Próximos Meses</div>
         <div style='font-size:0.85rem; color:#555'>
@@ -54,7 +54,7 @@ with col2:
     """, unsafe_allow_html=True)
 with col3:
     st.markdown("""
-    <div style='background:#e67e2210; border:1px solid #e67e2240; border-radius:10px; padding:16px; height:180px'>
+    <div style='background:#e67e2210; border:1px solid #e67e2240; border-radius:10px; padding:16px; min-height:160px'>
         <div style='font-size:1.5rem'>3️⃣</div>
         <div style='font-weight:700; margin:8px 0'>O Modelo Acerta?</div>
         <div style='font-size:0.85rem; color:#555'>
@@ -65,7 +65,7 @@ with col3:
     """, unsafe_allow_html=True)
 with col4:
     st.markdown("""
-    <div style='background:#8e44ad10; border:1px solid #8e44ad40; border-radius:10px; padding:16px; height:180px'>
+    <div style='background:#8e44ad10; border:1px solid #8e44ad40; border-radius:10px; padding:16px; min-height:160px'>
         <div style='font-size:1.5rem'>4️⃣</div>
         <div style='font-weight:700; margin:8px 0'>Como Funciona</div>
         <div style='font-size:0.85rem; color:#555'>
