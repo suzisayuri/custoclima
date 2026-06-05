@@ -3,7 +3,6 @@ import sys
 sys.path.insert(0, ".")
 import streamlit as st
 
-st.set_page_config(page_title="Entendendo o Site · CustoClima", page_icon="📖", layout="wide")
 
 st.title("📖 Entendendo o Site")
 st.markdown("Tudo que você precisa saber para usar o CustoClima com confiança.")

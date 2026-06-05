@@ -8,7 +8,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from utils.dados import carregar_precos, carregar_backtesting, carregar_oni
 
-st.set_page_config(page_title="O Modelo Acerta? · CustoClima", page_icon="🔍", layout="wide")
 
 st.title("📊 O Modelo Acerta?")
 st.markdown(

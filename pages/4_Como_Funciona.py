@@ -9,7 +9,6 @@ import plotly.graph_objects as go
 import numpy as np
 from utils.dados import carregar_correlacoes, carregar_correlacoes_ndvi, carregar_precos, carregar_precipitacao, carregar_ndvi
 
-st.set_page_config(page_title="Como Funciona · CustoClima", page_icon="📊", layout="wide")
 
 st.title("🔬 Como o Modelo Funciona")
 st.markdown(
