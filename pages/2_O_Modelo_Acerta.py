@@ -8,12 +8,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 from utils.dados import carregar_precos, carregar_backtesting, carregar_oni
 
-st.set_page_config(page_title="Histórico · CustoClima", page_icon="🔍", layout="wide")
+st.set_page_config(page_title="O Modelo Acerta? · CustoClima", page_icon="🔍", layout="wide")
 
-st.title("🔍 Histórico de Preços e Validação do Modelo")
+st.title("📊 O Modelo Acerta?")
 st.markdown(
-    "Histórico real de variação de preços por produto (BCB/IPCA) e "
-    "resultado do backtesting — o modelo teria acertado no passado?"
+    "Histórico real de preços e validação: o modelo teria acertado nos últimos 10 anos?"
 )
 st.divider()
 

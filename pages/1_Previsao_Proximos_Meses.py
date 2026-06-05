@@ -11,10 +11,10 @@ from utils.dados import (carregar_oni, carregar_precipitacao, carregar_ndvi,
                          carregar_corr_oni_precip, buscar_previsao_enso_noaa,
                          buscar_status_cptec)
 
-st.set_page_config(page_title="ENSO & Clima · CustoClima", page_icon="🌧️", layout="wide")
+st.set_page_config(page_title="Previsão dos Próximos Meses · CustoClima", page_icon="🌧️", layout="wide")
 
-st.title("🌧️ ENSO, Precipitação e Vegetação")
-st.markdown("Histórico dos sinais climáticos que alimentam o modelo de previsão.")
+st.title("📅 Previsão dos Próximos Meses")
+st.markdown("O que o clima indica para os próximos meses — baseado em dados da NOAA, CPTEC e NASA.")
 st.divider()
 
 df_oni    = carregar_oni()

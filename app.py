@@ -34,6 +34,18 @@ segmento = st.radio(
     help="Adapta a linguagem das recomendações ao seu tipo de negócio.",
 )
 
+with st.expander("🧭 Primeira vez aqui? Veja como usar o site em 30 segundos"):
+    st.markdown("""
+    **1. Este painel (Alertas de Compra)** — comece aqui. O semáforo mostra quais produtos merecem atenção agora.
+    🔴 Vermelho = agir logo · 🟠 Laranja = monitorar · 🟢 Verde = compra normal.
+
+    **2. Previsão dos Próximos Meses** — veja o que o clima indica para os próximos 6 meses com base em dados oficiais da NOAA e CPTEC.
+
+    **3. O Modelo Acerta?** — confira com que frequência o modelo acertou nos últimos 10 anos antes de confiar nele para decisões grandes.
+
+    **4. Entendendo o Site** — glossário completo, explicação das fontes e guia de uso detalhado.
+    """)
+
 st.divider()
 
 # ── Dados ─────────────────────────────────────────────────────────────────────
